@@ -1,0 +1,138 @@
+# parsers/field_paths.py
+
+def get_path(d, path, default=None):
+    for key in path:
+        if isinstance(key, int) and isinstance(d, list):
+            d = d[key] if key < len(d) else default
+        elif isinstance(d, dict):
+            d = d.get(key, default)
+        else:
+            return default
+    return d
+
+FIELD_PATHS = {
+    'nid': ['nid'],
+    'name': ['name'],
+    'updated': ['updated'],
+    'napsID': ['napsID'],
+    'approvedProvider': ['serviceProvider', 'approvedProvider'],
+    'address': ['serviceProvider', 'address'],
+    'city': ['serviceProvider', 'city'],
+    'state': ['serviceProvider', 'state'],
+    'postcode': ['serviceProvider', 'postcode'],
+    'accredited': ['accredited'],
+    'racs_id': ['supplementalProviderInfo', 'racs_id'],
+    'cm_exempt': ['supplementalProviderInfo', 'cm_exempt'],
+    'qi_exempt': ['supplementalProviderInfo', 'qi_exempt'],
+    'cer_exempt': ['supplementalProviderInfo', 'cer_exempt'],
+    'scr_exempt': ['supplementalProviderInfo', 'scr_exempt'],
+
+    # Aged care homes
+    'agedCareHomes_occupancy_value': ['operationsData', 'agedCareHomes', 'occupancy', 'value', 'value'],
+    'agedCareHomes_occupancy_median': ['operationsData', 'agedCareHomes', 'occupancy', 'median', 'value'],
+    'agedCareHomes_residents_lastYear': ['operationsData', 'agedCareHomes', 'residents', 'lastYear', 'value'],
+    'agedCareHomes_residents_newResidents': ['operationsData', 'agedCareHomes', 'residents', 'newResidents', 'value'],
+    'agedCareHomes_residents_ceasedResidents': ['operationsData', 'agedCareHomes', 'residents', 'ceasedResidents', 'value'],
+
+    # Financial - annual
+    'governmentFunding_total': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'governmentFunding', 'total', 'value'],
+    'governmentFunding_value': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'governmentFunding', 'value', 'value'],
+    'other_income': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'other', 'value', 'value'],
+    'residentsContributions': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'residentsContributions', 'value', 'value'],
+    'income_total': ['operationsData', 'financialReport', 'annual', 'income', 'total', 'value', 'value'],
+
+    # Care and Nursing
+    'careNursing_total': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'total', 'value'],
+    'registeredNurses_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'subitems', 'registeredNurses', 'value', 'value'],
+    'enrolledNurses_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'subitems', 'enrolledNurses', 'value', 'value'],
+    'personalCareStaff_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'subitems', 'personalCareStaff', 'value', 'value'],
+    'careManagementStaff_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'subitems', 'careManagementStaff', 'value', 'value'],
+    'alliedHealth_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'subitems', 'alliedHealth', 'value', 'value'],
+    'lifestyleAndRecreationWorkers_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'subitems', 'lifestyleAndRecreationWorkers', 'value', 'value'],
+    'otherLabourAndCareExpenses_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'careNursing', 'subitems', 'otherLabourAndCareExpenses', 'value', 'value'],
+
+    # Admin
+    'administration_total': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'administration', 'total', 'value'],
+
+    # Cleaning and Laundry
+    'cleaningLaundry_total': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'cleaningLaundry', 'total', 'value'],
+    'cleaning_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'cleaning', 'value', 'value'],
+    'laundry_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'laundry', 'value', 'value'],
+    'covidAndInfectionControl_value': ['operationsData','financialReport','annual','expenses','items','covidAndInfectionControl','value','value'],
+    'otherRelatedCleaningLaundry_value': ['operationsData','financialReport','annual','expenses','items','otherRelatedCleaningLaundry','value','value'],
+
+    # Accommodation and Maintenance
+    'accommodationMaintenance_total': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'accommodationMaintenance', 'total', 'value'],
+    'accommodation_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'accommodation', 'value', 'value'],
+    'maintenance_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'maintenance', 'value', 'value'],
+
+    # Food and Catering
+    'foodCatering_value': ['operationsData', 'financialReport', 'annual', 'expenses', 'items', 'foodCatering', 'total', 'value'],
+
+    # Total
+    'expenses_total': ['operationsData', 'financialReport', 'annual', 'expenses', 'total', 'value', 'value'],
+    'reportingPeriod_value': ['operationsData', 'financialReport', 'annual', 'reportingPeriod', 'value', 'reportingPeriod'],
+    'dailyPerResident_value': ['operationsData', 'financialReport', 'annual', 'dailyPerResident', 'value', 'value'],
+
+    # ACH wages & related (quarterly)
+    'ach_total': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achTotal', 'total', 'value'],
+    'ach_value': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achTotal', 'value', 'value'],
+    'ach_median': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achTotal', 'median', 'value'],
+    'ach_median_comparison': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achTotal', 'medianComparison', 'value'],
+    'ach_dietetics': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achDietetics', 'value', 'value'],
+    'ach_podiatrists': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achPodiatrists', 'value', 'value'],
+    'ach_enrolled_nurses': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achEnrolledNurses', 'value', 'value'],
+    'ach_physiotherapists': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achPhysiotherapists', 'value', 'value'],
+    'ach_registered_nurses': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achRegisteredNurses', 'value', 'value'],
+    'ach_other_allied_health': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achOtherAlliedHealth', 'value', 'value'],
+    'ach_personal_care_worker': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achPersonalCareWorker', 'value', 'value'],
+    'ach_speech_pathologists': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achSpeechPathologists', 'value', 'value'],
+    'ach_care_management_staff': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achCareManagementStaff', 'value', 'value'],
+    'ach_allied_health_assistants': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achAlliedHealthAssistants', 'value', 'value'],
+    'ach_occupational_therapists': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achOccupationalTherapists', 'value', 'value'],
+    'ach_lifestyle_and_recreation_workers': ['operationsData', 'financialReport', 'quarterly', 'wages', 'achLifestyleAndRecreationWorkers', 'value', 'value'],
+
+    # Quarterly staffing rates
+    'staffing_enrolled_nurse_value': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingEnrolledNurse', 'value', 'value'],
+    'staffing_enrolled_nurse_hr_max': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingEnrolledNurse', 'hourlyRateMax', 'value'],
+    'staffing_enrolled_nurse_hr_min': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingEnrolledNurse', 'hourlyRateMin', 'value'],
+    'staffing_enrolled_nurse_hr_median': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingEnrolledNurse', 'median', 'value'],
+    'staffing_registered_nurse_value': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingRegisteredNurse', 'value', 'value'],
+    'staffing_registered_nurse_hr_max': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingRegisteredNurse', 'hourlyRateMax', 'value'],
+    'staffing_registered_nurse_hr_min': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingRegisteredNurse', 'hourlyRateMin', 'value'],
+    'staffing_registered_nurse_hr_median': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingRegisteredNurse', 'median', 'value'],
+    'staffing_personal_care_worker_value': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingPersonalCareWorker', 'value', 'value'],
+    'staffing_personal_care_worker_hr_max': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingPersonalCareWorker', 'hourlyRateMax', 'value'],
+    'staffing_personal_care_worker_hr_min': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingPersonalCareWorker', 'hourlyRateMin', 'value'],
+    'staffing_personal_care_worker_hr_median': ['operationsData', 'financialReport', 'quarterly', 'wages', 'staffingPersonalCareWorker', 'median', 'value'],
+
+    # Room costs
+    'extra_service_fees_amount': ['ach_room_costs', 'subtypes', 0, 'extraServiceFeesAmount'],
+
+    # ACH quality & care minutes
+    'total_care_minutes_target': ['ach_quality', 'staffing', 'totalCareMinutes', 'target'],
+    'total_care_minutes_achieved': ['ach_quality', 'staffing', 'totalCareMinutes', 'achieved'],
+    'total_care_minutes_combined': ['ach_quality', 'staffing', 'totalCareMinutes', 'combined'],
+    'total_care_minutes_comparison': ['ach_quality', 'staffing', 'totalCareMinutes', 'comparisonOutcome'],
+    'rn_minutes_target': ['ach_quality', 'staffing', 'registeredNurseMinutes', 'target'],
+    'rn_minutes_achieved': ['ach_quality', 'staffing', 'registeredNurseMinutes', 'achieved'],
+    'rn_minutes_combined': ['ach_quality', 'staffing', 'registeredNurseMinutes', 'combined'],
+    'rn_minutes_comparison': ['ach_quality', 'staffing', 'registeredNurseMinutes', 'comparisonOutcome'],
+    'personal_care_minutes_achieved': ['ach_quality', 'staffing', 'personalCareWorkersAndAssistantsMinutes', 'achieved'],
+    'enrolled_nurse_minutes_achieved': ['ach_quality', 'staffing', 'enrolledNurseMinutes', 'achieved'],
+    'enrolled_nurse_minutes_topup': ['ach_quality', 'staffing', 'enrolledNurseMinutes', 'topUp'],
+
+    # RN coverage & comparison
+    'rn_coverage': ['ach_quality', 'staffing', 'registeredNursingCoverage', 'current', 'serviceCoverage'],
+    'rn_coverage_target_comparison': ['ach_quality', 'staffing', 'registeredNursingCoverage', 'current', 'serviceTargetComparison'],
+    'rn_coverage_target_result': ['ach_quality', 'staffing', 'registeredNursingCoverage', 'current', 'serviceTargetComparisonResult'],
+    'service_avg_comparison': ['ach_quality', 'staffing', 'registeredNursingCoverage', 'current', 'serviceAverageComparison'],
+    'service_avg_comparison_result': ['ach_quality', 'staffing', 'registeredNursingCoverage', 'current', 'serviceAverageComparisonResult'],
+
+    # Star Ratings
+    'rating_overall': ['ratings', 'overall', 0, 'rating'],
+    'rating_residentsExperience': ['ratings', 'residentsExperience', 0, 'rating'],
+    'rating_staffing': ['ratings', 'staffing', 0, 'rating'],
+    'rating_qualityMeasures': ['ratings', 'qualityMeasures', 0, 'rating'],
+    'rating_compliance': ['ratings', 'compliance', 0, 'rating'],
+}

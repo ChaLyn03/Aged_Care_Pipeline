@@ -1,0 +1,6 @@
+# config/schedules.yaml
+
+operations:
+  description: "Fetch operations & financial data"
+  # Monthly run on the 1st at 03:00
+  cron: "0 3 1 * *"
