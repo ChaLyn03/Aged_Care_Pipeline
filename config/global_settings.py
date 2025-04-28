@@ -1,7 +1,7 @@
 # config/global_settings.py
 
 # If LIMIT is None → full scrape; otherwise slice NIDs for testing
-LIMIT = 5
+LIMIT = None
 
 # Base API settings
 BASE_URL = (

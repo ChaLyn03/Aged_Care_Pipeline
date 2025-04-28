@@ -14,7 +14,7 @@ monitoring/healthcheck.py
 parsers/__init__.py
 parsers/field_paths.py
 parsers/operations_parser.py
-parsers/radsscraper.py
+parsers/rads_parser.py
 scheduler/__init__.py
 scheduler/apscheduler_runner.py
 scheduler/cron_scheduler.py
