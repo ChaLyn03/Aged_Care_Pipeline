@@ -1,39 +1,45 @@
-# tests/test_scrapers/test_operations_scraper.py
-import os
+import importlib
 import json
-import pytest
-import requests
+from pathlib import Path
+
 from requests.models import Response
 
-from scrapers.operations_scraper import OperationsScraper
-from config.global_settings import BASE_URL, RAW_DIR
+import aged_care_pipeline.scrapers.operations_scraper as op_scraper
+from aged_care_pipeline.config.global_settings import OPERATIONS_BASE_URL
+
 
 class DummyResponse(Response):
+    """A minimal Response object that behaves like requests.get output."""
+
     def __init__(self, data, status=200):
         super().__init__()
         self._content = json.dumps(data).encode()
         self.status_code = status
 
+
 def test_scrape_saves_raw(tmp_path, monkeypatch):
+    """OperationsScraper.scrape should write the raw JSON to RAW_DIR."""
     nid = 12345
     sample = {"nid": nid, "foo": "bar"}
 
-    # Monkey-patch safe_get to return our dummy response
+    # Patch safe_get so we do **not** hit the network
     def fake_get(url, headers):
-        assert url == BASE_URL.format(nid)
+        assert url == OPERATIONS_BASE_URL.format(nid)
         return DummyResponse(sample)
-    monkeypatch.setattr("scrapers.operations_scraper.safe_get", fake_get)
 
-    # Redirect RAW_DIR to our tmp
+    monkeypatch.setattr(op_scraper, "safe_get", fake_get, raising=True)
+
+    # Point RAW_DIR at the pytest tmp directory *and* reload the module so the
+    # constant inside operations_scraper picks up the new value.
     monkeypatch.setenv("RAW_DIR", str(tmp_path))
-    os.makedirs(str(tmp_path), exist_ok=True)
+    importlib.reload(op_scraper)
 
-    scraper = OperationsScraper()
+    scraper = op_scraper.OperationsScraper()
     result = scraper.scrape(nid)
     assert result == sample
 
-    # Check file was written
-    files = list(tmp_path.iterdir())
-    assert len(files) == 1
-    saved = json.loads(files[0].read_bytes())
+    # The scraper creates <RAW_DIR>/<nid>.json  — search recursively to find it
+    saved_files = list(Path(tmp_path).rglob("*.json"))
+    assert len(saved_files) == 1
+    saved = json.loads(saved_files[0].read_bytes())
     assert saved == sample

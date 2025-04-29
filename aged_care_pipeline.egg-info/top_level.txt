@@ -1,7 +1,0 @@
-delivery
-monitoring
-parsers
-scheduler
-scrapers
-services
-writers

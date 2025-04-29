@@ -3,6 +3,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+
 def test_full_pipeline(tmp_path, monkeypatch):
     # point NIDS_CSV to our one-item file
     nids_csv = tmp_path / "nids.csv"

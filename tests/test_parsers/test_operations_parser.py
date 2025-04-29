@@ -1,10 +1,11 @@
-# tests/test_parsers/test_operations_parser.py
-
 import pytest
-from parsers.operations.operations_parser import OperationsParser
-from parsers.operations_field_paths import get_path, FIELD_PATHS
+
+from aged_care_pipeline.parsers.operations.operations_field_paths import FIELD_PATHS
+from aged_care_pipeline.parsers.operations.operations_parser import OperationsParser
+
 
 def make_dummy():
+    """Return the smallest JSON blob that touches every path we care about."""
     return {
         "nid": 1,
         "ratings": {"compliance": [{"rating": 4}]},
@@ -12,13 +13,13 @@ def make_dummy():
             "agedCareHomes": {
                 "occupancy": {
                     "value": {"value": "91-100%"},
-                    "median": {"value": "81-90%"}
+                    "median": {"value": "81-90%"},
                 },
                 "residents": {
-                    "lastYear":     {"value": "20-39"},
+                    "lastYear": {"value": "20-39"},
                     "newResidents": {"value": "20-39"},
-                    "ceasedResidents":{"value": "20-39"}
-                }
+                    "ceasedResidents": {"value": "20-39"},
+                },
             },
             "financialReport": {
                 "annual": {
@@ -26,10 +27,9 @@ def make_dummy():
                         "items": {
                             "governmentFunding": {
                                 "total": {"value": 324.98},
-                                "value": {"value": 324.98}
                             }
                         },
-                        "total": {"value": {"value": 425.43}}
+                        "total": {"value": {"value": 425.43}},
                     },
                     "expenses": {
                         "items": {
@@ -37,25 +37,26 @@ def make_dummy():
                                 "total": {"value": 232.13},
                                 "subitems": {
                                     "registeredNurses": {"value": {"value": 71.33}}
-                                }
+                                },
                             }
                         },
-                        "total": {"value": {"value": 386.95}}
+                        "total": {"value": {"value": 386.95}},
                     },
                     "reportingPeriod": {"value": {"reportingPeriod": "2023-24"}},
-                    "dailyPerResident": {"value": {"value": 38.47}}
+                    "dailyPerResident": {"value": {"value": 38.47}},
                 },
                 "quarterly": {
                     "wages": {
                         "achTotal": {
                             "total": {"value": 243.51},
-                            "value": {"value": 243.51}
+                            "value": {"value": 243.51},
                         }
                     }
-                }
-            }
-        }
+                },
+            },
+        },
     }
+
 
 def test_parse_minimal_dummy():
     raw = make_dummy()
@@ -64,10 +65,13 @@ def test_parse_minimal_dummy():
 
     assert len(rows) == 1
     row = rows[0]
-    # every key from FIELD_PATHS should be present
-    for col in FIELD_PATHS:
-        assert col in row
+
+    # Every column declared in FIELD_PATHS should be present in the output row
+    missing = [c for c in FIELD_PATHS if c not in row]
+    assert not missing, f"parser missed columns: {missing}"
 
     assert row["nid"] == 1
     assert row["agedCareHomes_occupancy_value"] == "91-100%"
-    assert pytest.approx(row["governmentFunding_value"], rel=1e-3) == 324.98
+
+    # Naming in the live parser is “governmentFunding_total_value”
+    assert pytest.approx(row["governmentFunding_total_value"], rel=1e-3) == 324.98

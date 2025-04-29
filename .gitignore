@@ -1,5 +1,6 @@
 # byte-code
 **/__pycache__/
+__pycache__/
 *.py[cod]
 # build artefacts
 *.egg-info/
@@ -7,3 +8,6 @@ dist/
 # runtime data
 data/**
 !data/references/      # keep reference inputs if useful
+# Prettier cache
+node_modules/.cache/prettier/node_modules/
+node_modules/.cache/prettier/

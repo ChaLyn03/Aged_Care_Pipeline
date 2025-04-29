@@ -1,0 +1,49 @@
+# ---------- build backend ----------
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# ---------- core project metadata ----------
+[project]
+name = "aged_care_pipeline"
+version = "0.1.0"
+description = "ETL pipeline for Australian aged-care provider data"
+authors = [{name = "Charles Lynch"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "structlog>=24.1.0", # ➜ new
+  "requests",
+  "pandas"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "black",
+  "isort",
+  "ruff",
+  "pre-commit"
+]
+
+# ---------- entry points (console scripts) ----------
+[project.scripts]
+aged-care-scheduler = "aged_care_pipeline.scheduler.__main__:cli"
+aged-care-pipeline = "aged_care_pipeline.__main__:cli"
+
+[tool.isort]
+profile = "black"
+
+# ---------- setuptools knobs ----------
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true # wheel should ship non-py files
+
+# ---------- package-data (new) ----------
+# include every *.yaml inside src/aged_care_pipeline/config/ when building
+[tool.setuptools.package-data]
+aged_care_pipeline = ["config/*.yaml"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
