@@ -1,7 +1,7 @@
-# byte-code
-**/__pycache__/
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.so
 # build artefacts
 *.egg-info/
 dist/

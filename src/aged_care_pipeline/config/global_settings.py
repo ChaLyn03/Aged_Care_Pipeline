@@ -3,7 +3,7 @@
 All paths in one place.
 
 • reference CSVs (bundled in the wheel)     →  aged_care_pipeline/data/refs/
-• every output file (raw / interim / csv)   →  <repo>/src/data/…
+• every output file (raw / interim / csv)   →  <repo>/data/…
   unless the user overrides    $AGED_CARE_DATA_ROOT
 """
 from __future__ import annotations
@@ -13,7 +13,7 @@ from importlib.resources import files
 from pathlib import Path
 
 # ── 1. reference data that ships inside the package ────────────────────────
-REFS_DIR = files("aged_care_pipeline").joinpath("data", "refs")
+REFS_DIR = files("aged_care_pipeline").joinpath("refs")
 
 NIDS_CSV = REFS_DIR / "NIDs_Only.csv"
 RADS_NIDS_CSV = REFS_DIR / "ProviderDirectory.csv"
@@ -22,15 +22,25 @@ RADS_NIDS_CSV = REFS_DIR / "ProviderDirectory.csv"
 # ── 2. where *outputs* should live  ────────────────────────────────────────
 def _default_data_root() -> Path:
     """
-    Walk up from this file until we find “src/data”.
-    That will be    <REPO>/src/data   when you run inside the project.
-    If we never find it (e.g. inside an installed wheel), fall back to CWD/data.
+    Find the project's root-level data directory.
+    Walk up from this file until we find a folder containing 'pyproject.toml'
+    (the project root). Then return <root>/data if it exists.
+    Otherwise, fall back to any ancestor 'data' directory, or CWD/data.
     """
     here = Path(__file__).resolve()
+    # first look for project root by pyproject.toml
     for parent in here.parents:
-        candidate = parent / "src" / "data"
+        if (parent / "pyproject.toml").is_file():
+            candidate = parent / "data"
+            if candidate.is_dir():
+                return candidate
+            break
+    # next, look for any ancestor 'data' folder
+    for parent in here.parents:
+        candidate = parent / "data"
         if candidate.is_dir():
             return candidate
+    # fallback
     return Path.cwd() / "data"
 
 
