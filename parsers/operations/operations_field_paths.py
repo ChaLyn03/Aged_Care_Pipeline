@@ -36,7 +36,6 @@ FIELD_PATHS = {
 
     # Financial - annual
     'governmentFunding_total': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'governmentFunding', 'total', 'value'],
-    'governmentFunding_value': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'governmentFunding', 'value', 'value'],
     'other_income': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'other', 'value', 'value'],
     'residentsContributions': ['operationsData', 'financialReport', 'annual', 'income', 'items', 'residentsContributions', 'value', 'value'],
     'income_total': ['operationsData', 'financialReport', 'annual', 'income', 'total', 'value', 'value'],

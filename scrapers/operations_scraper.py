@@ -5,7 +5,7 @@ import json
 import logging
 from datetime import datetime
 from utils.request_handler import safe_get
-from config.global_settings import BASE_URL, HEADERS, RAW_DIR
+from config.global_settings import OPERATIONS_BASE_URL, OPERATIONS_HEADERS, RAW_DIR
 from interfaces.base_scraper import BaseScraper
 
 logger = logging.getLogger(__name__)
@@ -20,9 +20,9 @@ class OperationsScraper(BaseScraper):
         self.raw_dir = raw_dir if raw_dir is not None else RAW_DIR
 
     def scrape(self, nid: int) -> dict | None:
-        url = BASE_URL.format(nid)
+        url = OPERATIONS_BASE_URL.format(nid)
         logger.debug(f"Starting scrape for NID {nid}: GET {url}")
-        resp = safe_get(url, HEADERS)
+        resp = safe_get(url, OPERATIONS_HEADERS)
         data = resp.json()
 
         # ensure directory exists

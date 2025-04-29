@@ -8,18 +8,18 @@ INTERIM_DIR  = "data/interim"
 OUTPUT_DIR   = "data/processed"
 LOG_DIR = "data/logs"
 
-# Base API settings
-BASE_URL = (
+# BOperations pipeline settings
+OPERATIONS_BASE_URL = (
     "https://www.myagedcare.gov.au/api/v1/find-a-provider/"
     "details/{}?search=search-by-name&searchType=agedCareHomes"
 )
-HEADERS = {
+OPERATIONS_HEADERS = {
     "accept": "application/json, text/plain, */*",
     "referer": "https://www.myagedcare.gov.au/find-a-provider/aged-care-homes/",
     "sec-ch-ua-mobile": "?0",
     "user-agent": "OperationsBot/1.0 (+https://yourdomain.com)"
 }
-# config/global_settings.py (additions)
+
 # RADS pipeline settings
 RADS_NIDS_CSV     = os.path.join("data", "references", "ProviderDirectory.csv")
 RADS_BASE_URL    = (
