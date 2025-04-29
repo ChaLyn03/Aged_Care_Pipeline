@@ -3,7 +3,7 @@
 import logging
 from interfaces.base_parser import BaseParser
 from utils.limiter import apply_limit
-from .field_paths import get_path, FIELD_PATHS
+from .operations_field_paths     import get_path, FIELD_PATHS
 
 logger = logging.getLogger(__name__)
 

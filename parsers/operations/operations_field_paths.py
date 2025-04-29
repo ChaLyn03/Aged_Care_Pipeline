@@ -112,7 +112,6 @@ FIELD_PATHS = {
     # ACH quality & care minutes
     'total_care_minutes_target': ['ach_quality', 'staffing', 'totalCareMinutes', 'target'],
     'total_care_minutes_achieved': ['ach_quality', 'staffing', 'totalCareMinutes', 'achieved'],
-    'total_care_minutes_combined': ['ach_quality', 'staffing', 'totalCareMinutes', 'combined'],
     'total_care_minutes_comparison': ['ach_quality', 'staffing', 'totalCareMinutes', 'comparisonOutcome'],
     'rn_minutes_target': ['ach_quality', 'staffing', 'registeredNurseMinutes', 'target'],
     'rn_minutes_achieved': ['ach_quality', 'staffing', 'registeredNurseMinutes', 'achieved'],

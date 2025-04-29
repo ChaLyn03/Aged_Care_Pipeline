@@ -8,7 +8,7 @@ import importlib
 import pandas as pd
 from datetime import datetime
 from scrapers.rads_scraper import RadsScraper
-from parsers.rads_parser import RadsParser
+from parsers.rads.rads_parser import RadsParser
 from utils.logger import setup_logger
 from utils.limiter import apply_limit
 from writers.csv_writer import CSVWriter
@@ -19,13 +19,13 @@ PIPELINES = {
     "operations": {
         "nids_csv": gs.NIDS_CSV,
         "scraper": ("scrapers.operations_scraper", "OperationsScraper"),
-        "parser":  ("parsers.operations_parser",  "OperationsParser"),
+        "parser":  ("parsers.operations.operations_parser",  "OperationsParser"),
         "prefix":  "operations"
     },
     "rads": {
         "nids_csv": gs.RADS_NIDS_CSV,
         "scraper": ("scrapers.rads_scraper", "RadsScraper"),
-        "parser":  ("parsers.rads_parser",  "RadsParser"),
+        "parser":  ("parsers.rads.rads_parser","RadsParser"),
         "prefix":  "rads"
     }
 }
@@ -59,6 +59,55 @@ def add_subcommands(subparsers):
 
     return parent
 
+def _do_cleanup(pipeline: str, raw_dir: str, interim_dir: str, keep_raw: bool):
+    """
+    Merge all per-ID raw JSONs for `pipeline`, archive them, delete
+    originals and purge interim.  `keep_raw` controls retention of
+    the individual raw files.
+    """
+    cleanup_logger = logging.getLogger(f"{pipeline}.cleanup")
+    archive_root = os.path.join(gs.RAW_DIR, 'archive', pipeline)
+    os.makedirs(archive_root, exist_ok=True)
+
+    # Gather raw jsons, skipping already-merged
+    raw_paths = [
+        p for p in glob.glob(f"{raw_dir}/*.json")
+        if not os.path.basename(p).startswith(f"{pipeline}_all_raw_")
+    ]
+
+    # Load and append
+    merged = []
+    for p in raw_paths:
+        try:
+            with open(p, 'r', encoding='utf-8') as f:
+                merged.append(json.load(f))
+        except Exception as e:
+            cleanup_logger.warning(f"Skipping {p}: {e}")
+
+    # Write single big archive file
+    ts = datetime.now().strftime('%d_%m_%Y')
+    archive_file = os.path.join(archive_root, f"{pipeline}_all_raw_{ts}.json")
+    with open(archive_file, 'w', encoding='utf-8') as f:
+        json.dump(merged, f, ensure_ascii=False, indent=2)
+    cleanup_logger.info(f"Merged {len(merged)} raw files → {archive_file}")
+
+    # Delete per-ID raw files (unless we want to keep them)
+    if not keep_raw:
+        for p in raw_paths:
+            try:
+                os.remove(p)
+            except Exception as e:
+                cleanup_logger.warning(f"Failed to delete {p}: {e}")
+        cleanup_logger.info(f"Deleted {len(raw_paths)} raw JSONs")
+
+    # Purge interim JSONs
+    interim_paths = glob.glob(f"{interim_dir}/*.json")
+    for p in interim_paths:
+        try:
+            os.remove(p)
+        except Exception as e:
+            cleanup_logger.warning(f"Failed to delete interim file {p}: {e}")
+    cleanup_logger.info(f"Deleted {len(interim_paths)} interim JSONs")
 
 def main():
     parser = argparse.ArgumentParser(prog="aged-care-pipeline")
@@ -109,9 +158,17 @@ def main():
         nids = df.nid.dropna().astype(int).tolist()
         nids = apply_limit(nids)
 
-        scraper = Scraper(raw_dir=raw_dir)
-        parser_ = Parser()
-        all_rows = []
+        scraper   = Scraper(raw_dir=raw_dir)
+        parser_   = Parser()
+        all_rows  = []
+
+        # — Validation state —
+        expected_nids = set(nids)
+        scraped_nids  = set()
+
+        # We'll discover expected_fields dynamically on first non-empty row.
+        expected_fields = None
+
 
         for idx, nid in enumerate(nids, start=1):
             logger.info(f"[{idx}/{len(nids)}] Scraping {nid}")
@@ -127,14 +184,62 @@ def main():
             with open(ipath, 'w', encoding='utf-8') as wf:
                 json.dump(rows, wf, ensure_ascii=False, indent=2)
             logger.info(f"Parsed → {ipath}")
+            parsed = parser_.parse(raw)
 
-            all_rows.extend(rows)
+            # track NID coverage
+            if parsed:
+                scraped_nids.add(nid)
+
+                # On the very first parsed row, grab its field‐count
+                if expected_fields is None:
+                    expected_fields = len(parsed[0].keys())
+                    logger.debug(f"Detected {expected_fields} total fields per row")
+
+                # For each row (usually one per NID) compute completeness
+                for row in parsed:
+                    present = sum(1 for v in row.values()
+                                  if v not in (None, "", [], {}))
+                    missing = expected_fields - present
+                    pct_miss = missing / expected_fields * 100
+
+                    tag = "COMPLETE" if missing == 0 else "INCOMPLETE"
+                    level = logging.DEBUG if missing == 0 else logging.WARNING
+                    logger.log(level,
+                        f"[{tag}] NID {nid}: "
+                        f"{present}/{expected_fields} fields present, "
+                        f"{missing} missing ({pct_miss:.1f}%)"
+                    )
+
+                all_rows.extend(parsed)
+            else:
+                logger.warning(f"NID {nid} returned no data; skipping")
 
         # write CSV
         ts = datetime.now().strftime('%d_%m_%Y')
         ofile = f"{conf['prefix']}_{ts}.csv"
         CSVWriter(output_dir=output_dir).write(all_rows, ofile)
+        total_expected = len(expected_nids)
+        total_seen     = len(scraped_nids)
+        missed_nids    = expected_nids - scraped_nids
+        pct_covered    = total_seen/total_expected * 100
+
+        logger.info(
+            f"NID coverage: {total_seen}/{total_expected} "
+            f"({pct_covered:.1f}%) scraped; "
+            f"{len(missed_nids)} missing: {sorted(missed_nids)}"
+        )
+
+        # finally, write your CSV
+        CSVWriter(output_dir=output_dir).write(all_rows, ofile)
         logger.info(f"Wrote CSV → {os.path.join(output_dir, ofile)}")
+
+        # now automatically clean up raw+interim
+        _do_cleanup(
+            pipeline=args.pipeline,
+            raw_dir=raw_dir,
+            interim_dir=interim_dir,
+            keep_raw=False
+        )
 
     elif args.cmd == 'scrape':
         if args.limit is not None:

@@ -1,8 +1,8 @@
 # tests/test_parsers/test_operations_parser.py
 
 import pytest
-from parsers.operations_parser import OperationsParser
-from parsers.field_paths import get_path, FIELD_PATHS
+from parsers.operations.operations_parser import OperationsParser
+from parsers.operations_field_paths import get_path, FIELD_PATHS
 
 def make_dummy():
     return {
