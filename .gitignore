@@ -1,0 +1,9 @@
+# byte-code
+**/__pycache__/
+*.py[cod]
+# build artefacts
+*.egg-info/
+dist/
+# runtime data
+data/**
+!data/references/      # keep reference inputs if useful
