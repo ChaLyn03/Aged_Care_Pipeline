@@ -7,6 +7,8 @@ import os
 from aged_care_pipeline.logging_config import init_logging
 from aged_care_pipeline.scrapers.rads_scraper import run_scraper
 
+from .cli import main
+
 
 def cli() -> None:
     """Entry-point for console_scripts and direct invocation."""
@@ -26,4 +28,4 @@ def cli() -> None:
 
 
 if __name__ == "__main__":
-    cli()
+    main()

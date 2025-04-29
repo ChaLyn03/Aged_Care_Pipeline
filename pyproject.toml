@@ -29,8 +29,8 @@ dev = [
 
 # ---------- entry points (console scripts) ----------
 [project.scripts]
-aged-care-scheduler = "aged_care_pipeline.scheduler.__main__:cli"
-aged-care-pipeline = "aged_care_pipeline.__main__:cli"
+aged-care-scheduler = "aged_care_pipeline.scheduler.__main__:main"
+aged-care-pipeline = "aged_care_pipeline.cli:main"
 
 [tool.isort]
 profile = "black"
@@ -43,7 +43,10 @@ include-package-data = true # wheel should ship non-py files
 # ---------- package-data (new) ----------
 # include every *.yaml inside src/aged_care_pipeline/config/ when building
 [tool.setuptools.package-data]
-aged_care_pipeline = ["config/*.yaml"]
+aged_care_pipeline = [
+  "config/*.yaml",
+  "data/refs/*.csv" # ← second item, comma after the first string, **no extra =**
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

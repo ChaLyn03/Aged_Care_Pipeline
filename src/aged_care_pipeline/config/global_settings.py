@@ -1,14 +1,55 @@
-# config/global_settings.py
+# ── src/aged_care_pipeline/config/global_settings.py ───────────────────────
+"""
+All paths in one place.
+
+• reference CSVs (bundled in the wheel)     →  aged_care_pipeline/data/refs/
+• every output file (raw / interim / csv)   →  <repo>/src/data/…
+  unless the user overrides    $AGED_CARE_DATA_ROOT
+"""
+from __future__ import annotations
+
 import os
+from importlib.resources import files
+from pathlib import Path
 
-# Local paths
-NIDS_CSV = "data/refs/NIDs_Only.csv"
-RAW_DIR = "data/raw"
-INTERIM_DIR = "data/interim"
-OUTPUT_DIR = "data/processed"
-LOG_DIR = "data/logs"
+# ── 1. reference data that ships inside the package ────────────────────────
+REFS_DIR = files("aged_care_pipeline").joinpath("data", "refs")
 
-# BOperations pipeline settings
+NIDS_CSV = REFS_DIR / "NIDs_Only.csv"
+RADS_NIDS_CSV = REFS_DIR / "ProviderDirectory.csv"
+
+
+# ── 2. where *outputs* should live  ────────────────────────────────────────
+def _default_data_root() -> Path:
+    """
+    Walk up from this file until we find “src/data”.
+    That will be    <REPO>/src/data   when you run inside the project.
+    If we never find it (e.g. inside an installed wheel), fall back to CWD/data.
+    """
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        candidate = parent / "src" / "data"
+        if candidate.is_dir():
+            return candidate
+    return Path.cwd() / "data"
+
+
+DATA_ROOT = Path(os.getenv("AGED_CARE_DATA_ROOT", _default_data_root())).resolve()
+
+RAW_DIR = DATA_ROOT / "raw"
+INTERIM_DIR = DATA_ROOT / "interim"
+OUTPUT_DIR = DATA_ROOT / "processed"
+LOG_DIR = DATA_ROOT / "logs"
+
+# convenient per-pipeline dirs (used by the scrapers & CLI)
+OPERATIONS_RAW_DIR = RAW_DIR / "operations"
+OPERATIONS_INTERIM_DIR = INTERIM_DIR / "operations"
+
+RADS_RAW_DIR = RAW_DIR / "rads"
+RADS_INTERIM_DIR = INTERIM_DIR / "rads"
+
+
+# ── 3. the rest (URLs, headers) stays as-is ────────────────────────────────
 OPERATIONS_BASE_URL = (
     "https://www.myagedcare.gov.au/api/v1/find-a-provider/"
     "details/{}?search=search-by-name&searchType=agedCareHomes"
@@ -20,8 +61,6 @@ OPERATIONS_HEADERS = {
     "user-agent": "OperationsBot/1.0 (+https://yourdomain.com)",
 }
 
-# RADS pipeline settings
-RADS_NIDS_CSV = os.path.join("data", "refs", "ProviderDirectory.csv")
 RADS_BASE_URL = (
     "https://www.myagedcare.gov.au/api/v1/find-a-provider/"
     "details/{}?search=search-by-name&searchType=companyName"
@@ -35,5 +74,3 @@ RADS_HEADERS = {
     ),
     "Referer": "https://www.myagedcare.gov.au/find-a-provider/",
 }
-RADS_RAW_DIR = os.path.join(RAW_DIR, "rads")
-RADS_INTERIM_DIR = os.path.join(INTERIM_DIR, "rads")

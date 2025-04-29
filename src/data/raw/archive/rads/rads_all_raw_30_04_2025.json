@@ -1,0 +1,3772 @@
+[
+  {
+    "nid": "1212192",
+    "careType": "ach",
+    "name": "Calvary Muswellbrook Retirement Community",
+    "published": "1",
+    "updated": "2025-04-01",
+    "previouslyKnownAs": "Calvary Mt Providence Retirement Community",
+    "description": {
+      "value": "At Calvary, we are committed to holistic, resident focused care. We have created a home environment, which supports your independence. By taking the time to get to know you and understand your medical concerns, we can meet your physical, social, emotional and spiritual needs. Our highly trained and attentive team ensure all residents are cared for with integrity and respect. \nCalvary Muswellbrook Retirement Community offers permanent and respite accommodation to 65 residents in single or companion rooms each with a private ensuite, air-conditioning with temperature control, plus flat screen televisions.\nCafe, Gym, Wellness Centre, Community Gardens, BBQ areas, Children's Play ground\nAll meals prepared and cooked onsite, hairdressing salon, Sitting rooms with tea and coffee facilities, Entertainment by local groups and schools, bus trips and social outings, Internet access, Religious services provided and Palliative care\n",
+      "format": "rich_text",
+      "rendered": "<p>At Calvary, we are committed to holistic, resident focused care. We have created a home environment, which supports your independence. By taking the time to get to know you and understand your medical concerns, we can meet your physical, social, emotional and spiritual needs. Our highly trained and attentive team ensure all residents are cared for with integrity and respect.<br>\nCalvary Muswellbrook Retirement Community offers permanent and respite accommodation to 65 residents in single or companion rooms each with a private ensuite, air-conditioning with temperature control, plus flat screen televisions.<br>\nCafe, Gym, Wellness Centre, Community Gardens, BBQ areas, Children's Play ground<br>\nAll meals prepared and cooked onsite, hairdressing salon, Sitting rooms with tea and coffee facilities, Entertainment by local groups and schools, bus trips and social outings, Internet access, Religious services provided and Palliative care</p>\n"
+    },
+    "macId": "1-EP-4103",
+    "languages": [],
+    "website": "http://www.calvarycare.org.au",
+    "napsID": "136",
+    "ownerAccountId": "1-E6-98",
+    "waitlistStatus": "Waitlist available",
+    "outletStatus": "Operational",
+    "acgStartDate": "1989-01-11",
+    "serviceProvider": {
+      "phone": "+610265424800",
+      "fax": null,
+      "email": "careenquiries@calvarycare.org.au",
+      "abn": "34102625212",
+      "approvedProvider": "Calvary Retirement Communities Limited",
+      "parentAccountStatus": "Active",
+      "providerStatus": "Active",
+      "culturalEnvironment": [],
+      "religion": [],
+      "coordinates": {
+        "value": "POINT (150.894855 -32.282322)",
+        "geo_type": "Point",
+        "lat": -32.282322,
+        "lon": 150.894855,
+        "left": 150.894855,
+        "top": -32.282322,
+        "right": 150.894855,
+        "bottom": -32.282322,
+        "geohash": "r6723enmbgnb",
+        "latlon": "-32.282322,150.894855"
+      },
+      "address": "15 Cassidy Avenue",
+      "city": "MUSWELLBROOK",
+      "state": "NSW",
+      "postcode": "2333",
+      "country": "Australia",
+      "latitude": "-32.282322",
+      "longitude": "150.894855",
+      "address2": "MUSWELLBROOK NSW 2333"
+    },
+    "accredited": "Yes",
+    "accreditationPeriod": "3 Years",
+    "attachments": [
+      {
+        "media": {
+          "thumbnail": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-1BZSDV.png",
+            "alt": null
+          },
+          "image": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-1BZSDV.png",
+            "alt": null
+          }
+        },
+        "attachmentType": "Internal Photo",
+        "fileExtension": "png",
+        "fileSize": "2165271",
+        "published": "1"
+      },
+      {
+        "media": {
+          "thumbnail": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-1BZSDW.png",
+            "alt": null
+          },
+          "image": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-1BZSDW.png",
+            "alt": null
+          }
+        },
+        "attachmentType": "Internal Photo",
+        "fileExtension": "png",
+        "fileSize": "2165271",
+        "published": "1"
+      },
+      {
+        "media": {
+          "thumbnail": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9RR6BZN.jpg",
+            "alt": null
+          },
+          "image": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9RR6BZN.jpg",
+            "alt": null
+          }
+        },
+        "attachmentType": "Internal Photo",
+        "fileExtension": "jpg",
+        "fileSize": "31335",
+        "published": "1"
+      },
+      {
+        "media": {
+          "thumbnail": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9RR6C47.jpg",
+            "alt": null
+          },
+          "image": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9RR6C47.jpg",
+            "alt": null
+          }
+        },
+        "attachmentType": "Internal Photo",
+        "fileExtension": "jpg",
+        "fileSize": "15678",
+        "published": "1"
+      },
+      {
+        "media": {
+          "thumbnail": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9RR6C3L.PNG",
+            "alt": null
+          },
+          "image": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9RR6C3L.PNG",
+            "alt": null
+          }
+        },
+        "attachmentType": "Internal Photo",
+        "fileExtension": "PNG",
+        "fileSize": "703558",
+        "published": "1"
+      },
+      {
+        "media": {
+          "thumbnail": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9ROH7ST.PNG",
+            "alt": null
+          },
+          "image": {
+            "uri": "https://www.myagedcare.gov.au/sites/default/files/attachments/1-9ROH7ST.PNG",
+            "alt": null
+          }
+        },
+        "attachmentType": "Internal Photo",
+        "fileExtension": "PNG",
+        "fileSize": "1150815",
+        "published": "1"
+      }
+    ],
+    "active": true,
+    "specialisationsPrevious": [
+      {
+        "groupName": "Health conditions",
+        "groupSpecialisations": ["Dementia"]
+      }
+    ],
+    "specialisationsHealthSupport": [
+      {
+        "groupName": "Health conditions",
+        "groupSpecialisations": ["Dementia"]
+      }
+    ],
+    "specialisationsVerified": [],
+    "supplementalProviderInfo": {
+      "racs_id": "0120",
+      "cm_exempt": false,
+      "qi_exempt": false,
+      "accredited": true,
+      "cer_exempt": false,
+      "scr_exempt": false,
+      "naps_aco_id": "2496",
+      "new_service": false,
+      "status_date": "1989-01-11",
+      "service_type": "Residential",
+      "provider_name": "Calvary Retirement Communities Limited",
+      "service_status": "Operational",
+      "naps_service_id": "136",
+      "naps_provider_id": "2496",
+      "naps_service_name": "Calvary Muswellbrook Retirement Community",
+      "last_modified_date": "2022-08-07T00:05:29.000Z",
+      "cer_consent_revoked": false,
+      "transfer_of_ownership": false,
+      "accreditation_end_date": "2003-03-24",
+      "previous_provider_name": "The Trustees of the Roman Catholic Church for the Diocese of Maitland-Newcastle",
+      "accreditation_start_date": "2000-03-24",
+      "first_accreditation_start_date": "2000-03-24",
+      "provider_association_start_date": "2011-04-01",
+      "previous_provider_name_display_end_date": "2014-04-01",
+      "service_id": "0cE8w00000006GZEAY"
+    },
+    "ratings": {
+      "overall": [
+        {
+          "rating": 3,
+          "publishDate": "2025-02-03",
+          "lastUpdated": "2025-02-28",
+          "reportingPeriodStartDate": "2024-07-01",
+          "reportingPeriodEndDate": "2024-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a38Ol000002CR08IAG",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 1 FY 24 - 25",
+          "reportingPeriodName": "Quarter 1 FY 24 - 25 (1 July 2024 - 30 September 2024)",
+          "publishDateUnix": 1738540800,
+          "lastUpdatedUnix": 1740722463,
+          "reportingPeriodStartDateUnix": 1719792000,
+          "reportingPeriodEndDateUnix": 1727654400,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Current Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 4,
+          "publishDate": "2024-11-10",
+          "lastUpdated": "2025-02-03",
+          "reportingPeriodStartDate": "2024-04-01",
+          "reportingPeriodEndDate": "2024-06-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a38Ol000001kTXRIA2",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 4 FY 23 - 24",
+          "reportingPeriodName": "Quarter 4 FY 23 - 24 (1 April 2024 - 30 June 2024)",
+          "publishDateUnix": 1731196800,
+          "lastUpdatedUnix": 1738588775,
+          "reportingPeriodStartDateUnix": 1711929600,
+          "reportingPeriodEndDateUnix": 1719705600,
+          "description": "Good",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Previous Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2024-07-28",
+          "lastUpdated": "2024-11-10",
+          "reportingPeriodStartDate": "2024-01-01",
+          "reportingPeriodEndDate": "2024-03-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a38Ol000001Ea4nIAC",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 3 FY 23 - 24",
+          "reportingPeriodName": "Quarter 3 FY 23 - 24 (1 January 2024 - 31 March 2024)",
+          "publishDateUnix": 1722124800,
+          "lastUpdatedUnix": 1731243927,
+          "reportingPeriodStartDateUnix": 1704067200,
+          "reportingPeriodEndDateUnix": 1711843200,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Previous Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 4,
+          "publishDate": "2024-05-12",
+          "lastUpdated": "2024-10-19",
+          "reportingPeriodStartDate": "2023-10-01",
+          "reportingPeriodEndDate": "2023-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a38Ol000000piDtIAI",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 2 FY 23 - 24",
+          "reportingPeriodName": "Quarter 2 FY 23 - 24 (1 October 2023 - 31 December 2023)",
+          "publishDateUnix": 1715472000,
+          "lastUpdatedUnix": 1729322296,
+          "reportingPeriodStartDateUnix": 1696118400,
+          "reportingPeriodEndDateUnix": 1703980800,
+          "description": "Good",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2024-02-26",
+          "lastUpdated": "2024-04-20",
+          "reportingPeriodStartDate": "2023-07-01",
+          "reportingPeriodEndDate": "2023-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a38Ol000000UR50IAG",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 1 FY 23 - 24",
+          "reportingPeriodName": "Quarter 1 FY 23 - 24 (1 July 2023 - 30 September 2023)",
+          "publishDateUnix": 1708905600,
+          "lastUpdatedUnix": 1713656636,
+          "reportingPeriodStartDateUnix": 1688169600,
+          "reportingPeriodEndDateUnix": 1696032000,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-12-12",
+          "lastUpdated": "2024-04-20",
+          "reportingPeriodStartDate": "2023-04-01",
+          "reportingPeriodEndDate": "2023-06-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a38Ol00000085hvIAA",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 4 FY 22 - 23",
+          "reportingPeriodName": "Quarter 4 FY 22 - 23 (1 April 2023 - 30 June 2023)",
+          "publishDateUnix": 1702339200,
+          "lastUpdatedUnix": 1713647081,
+          "reportingPeriodStartDateUnix": 1680307200,
+          "reportingPeriodEndDateUnix": 1688083200,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-08-07",
+          "lastUpdated": "2024-04-20",
+          "reportingPeriodStartDate": "2023-01-01",
+          "reportingPeriodEndDate": "2023-03-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a388w0000000QQiAAM",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 3 FY 22 - 23",
+          "reportingPeriodName": "Quarter 3 FY 22 - 23 (1 January 2023 - 31 March 2023)",
+          "publishDateUnix": 1691366400,
+          "lastUpdatedUnix": 1713630143,
+          "reportingPeriodStartDateUnix": 1672531200,
+          "reportingPeriodEndDateUnix": 1680220800,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-05-02",
+          "lastUpdated": "2024-04-20",
+          "reportingPeriodStartDate": "2022-10-01",
+          "reportingPeriodEndDate": "2022-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a388w0000000F6pAAE",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 2 FY 22 - 23",
+          "reportingPeriodName": "Quarter 2 FY 22 - 23 (1 October 2022 - 31 December 2022)",
+          "publishDateUnix": 1682985600,
+          "lastUpdatedUnix": 1713620506,
+          "reportingPeriodStartDateUnix": 1664582400,
+          "reportingPeriodEndDateUnix": 1672444800,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-03-07",
+          "lastUpdated": "2024-04-20",
+          "reportingPeriodStartDate": "2022-07-01",
+          "reportingPeriodEndDate": "2022-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a388w0000000D3kAAE",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 1 FY 22 - 23",
+          "reportingPeriodName": "Quarter 1 FY 22 - 23 (1 July 2022 - 30 September 2022)",
+          "publishDateUnix": 1678147200,
+          "lastUpdatedUnix": 1713613372,
+          "reportingPeriodStartDateUnix": 1656633600,
+          "reportingPeriodEndDateUnix": 1664496000,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-02-01",
+          "lastUpdated": "2024-04-20",
+          "reportingPeriodStartDate": "2022-07-01",
+          "reportingPeriodEndDate": "2022-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a388w0000000BmUAAU",
+          "type": "overall",
+          "reportingPeriodShortName": "Quarter 1 FY 22 - 23",
+          "reportingPeriodName": "Quarter 1 FY 22 - 23 (1 July 2022 - 30 September 2022)",
+          "publishDateUnix": 1675209600,
+          "lastUpdatedUnix": 1713612141,
+          "reportingPeriodStartDateUnix": 1656633600,
+          "reportingPeriodEndDateUnix": 1664496000,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        }
+      ],
+      "residentsExperience": [
+        {
+          "rating": 4,
+          "publishDate": "2024-12-31",
+          "lastUpdated": "2024-09-15",
+          "reportingPeriodStartDate": "2024-01-01",
+          "reportingPeriodEndDate": "2024-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a34Ol0000008O0LIAU",
+          "type": "residentsExperience",
+          "reportingPeriodShortName": "2024",
+          "reportingPeriodName": "2024 (1 January 2024 - 31 December 2024) - Previous reporting period",
+          "publishDateUnix": 1735603200,
+          "lastUpdatedUnix": 1726369227,
+          "reportingPeriodStartDateUnix": 1704067200,
+          "reportingPeriodEndDateUnix": 1735603200,
+          "description": "Good",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Current Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 4,
+          "publishDate": "2023-12-31",
+          "lastUpdated": "2023-09-21",
+          "reportingPeriodStartDate": "2023-01-01",
+          "reportingPeriodEndDate": "2023-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a348w0000000ij4AAA",
+          "type": "residentsExperience",
+          "reportingPeriodShortName": "2023",
+          "reportingPeriodName": "2023 (1 January 2023 - 31 December 2023)",
+          "publishDateUnix": 1703980800,
+          "lastUpdatedUnix": 1695271596,
+          "reportingPeriodStartDateUnix": 1672531200,
+          "reportingPeriodEndDateUnix": 1703980800,
+          "description": "Good",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Previous Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2022-12-31",
+          "lastUpdated": "2022-12-04",
+          "reportingPeriodStartDate": "2022-01-01",
+          "reportingPeriodEndDate": "2022-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a348w0000000DsHAAU",
+          "type": "residentsExperience",
+          "reportingPeriodShortName": "2022",
+          "reportingPeriodName": "2022 (1 January 2022 - 31 December 2022)",
+          "publishDateUnix": 1672444800,
+          "lastUpdatedUnix": 1670153658,
+          "reportingPeriodStartDateUnix": 1640995200,
+          "reportingPeriodEndDateUnix": 1672444800,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        }
+      ],
+      "staffing": [
+        {
+          "rating": 2,
+          "publishDate": "2024-09-30",
+          "lastUpdated": "2024-12-23",
+          "reportingPeriodStartDate": "2024-07-01",
+          "reportingPeriodEndDate": "2024-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "Registered Nurse care time contributed by an Enrolled Nurse will be calculated from the next Star Ratings quarterly update.",
+          "ratingId": "a2QOl000000qe4cMAA",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 1 FY 24 - 25",
+          "reportingPeriodName": "Quarter 1 FY 24 - 25 (1 July 2024 - 30 September 2024)",
+          "publishDateUnix": 1727654400,
+          "lastUpdatedUnix": 1734931989,
+          "reportingPeriodStartDateUnix": 1719792000,
+          "reportingPeriodEndDateUnix": 1727654400,
+          "description": "Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Current Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 2,
+          "publishDate": "2024-06-30",
+          "lastUpdated": "2024-09-18",
+          "reportingPeriodStartDate": "2024-04-01",
+          "reportingPeriodEndDate": "2024-06-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2QOl000000HobcMAC",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 4 FY 23 - 24",
+          "reportingPeriodName": "Quarter 4 FY 23 - 24 (1 April 2024 - 30 June 2024)",
+          "publishDateUnix": 1719705600,
+          "lastUpdatedUnix": 1726663249,
+          "reportingPeriodStartDateUnix": 1711929600,
+          "reportingPeriodEndDateUnix": 1719705600,
+          "description": "Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Previous Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 2,
+          "publishDate": "2024-03-31",
+          "lastUpdated": "2024-06-24",
+          "reportingPeriodStartDate": "2024-01-01",
+          "reportingPeriodEndDate": "2024-03-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2QOl0000005n5DMAQ",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 3 FY 23 - 24",
+          "reportingPeriodName": "Quarter 3 FY 23 - 24 (1 January 2024 - 31 March 2024)",
+          "publishDateUnix": 1711843200,
+          "lastUpdatedUnix": 1719225032,
+          "reportingPeriodStartDateUnix": 1704067200,
+          "reportingPeriodEndDateUnix": 1711843200,
+          "description": "Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Previous Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 2,
+          "publishDate": "2023-12-31",
+          "lastUpdated": "2024-04-18",
+          "reportingPeriodStartDate": "2023-10-01",
+          "reportingPeriodEndDate": "2023-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2QOl00000028EPMAY",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 2 FY 23 - 24",
+          "reportingPeriodName": "Quarter 2 FY 23 - 24 (1 October 2023 - 31 December 2023)",
+          "publishDateUnix": 1703980800,
+          "lastUpdatedUnix": 1713422564,
+          "reportingPeriodStartDateUnix": 1696118400,
+          "reportingPeriodEndDateUnix": 1703980800,
+          "description": "Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 2,
+          "publishDate": "2023-09-30",
+          "lastUpdated": "2024-02-26",
+          "reportingPeriodStartDate": "2023-07-01",
+          "reportingPeriodEndDate": "2023-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2Q8w0000000PM3EAM",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 1 FY 23 - 24",
+          "reportingPeriodName": "Quarter 1 FY 23 - 24 (1 July 2023 - 30 September 2023)",
+          "publishDateUnix": 1696032000,
+          "lastUpdatedUnix": 1708987110,
+          "reportingPeriodStartDateUnix": 1688169600,
+          "reportingPeriodEndDateUnix": 1696032000,
+          "description": "Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 1,
+          "publishDate": "2023-06-30",
+          "lastUpdated": "2023-11-28",
+          "reportingPeriodStartDate": "2023-04-01",
+          "reportingPeriodEndDate": "2023-06-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2Q8w0000000I1NEAU",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 4 FY 22 - 23",
+          "reportingPeriodName": "Quarter 4 FY 22 - 23 (1 April 2023 - 30 June 2023)",
+          "publishDateUnix": 1688083200,
+          "lastUpdatedUnix": 1701164235,
+          "reportingPeriodStartDateUnix": 1680307200,
+          "reportingPeriodEndDateUnix": 1688083200,
+          "description": "Significant Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 1,
+          "publishDate": "2023-03-31",
+          "lastUpdated": "2023-07-28",
+          "reportingPeriodStartDate": "2023-01-01",
+          "reportingPeriodEndDate": "2023-03-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2Q8w0000000EO0EAM",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 3 FY 22 - 23",
+          "reportingPeriodName": "Quarter 3 FY 22 - 23 (1 January 2023 - 31 March 2023)",
+          "publishDateUnix": 1680220800,
+          "lastUpdatedUnix": 1690525002,
+          "reportingPeriodStartDateUnix": 1672531200,
+          "reportingPeriodEndDateUnix": 1680220800,
+          "description": "Significant Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 1,
+          "publishDate": "2022-12-31",
+          "lastUpdated": "2023-03-22",
+          "reportingPeriodStartDate": "2022-10-01",
+          "reportingPeriodEndDate": "2022-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2Q8w0000000DgrEAE",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 2 FY 22 - 23",
+          "reportingPeriodName": "Quarter 2 FY 22 - 23 (1 October 2022 - 31 December 2022)",
+          "publishDateUnix": 1672444800,
+          "lastUpdatedUnix": 1679476924,
+          "reportingPeriodStartDateUnix": 1664582400,
+          "reportingPeriodEndDateUnix": 1672444800,
+          "description": "Significant Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 1,
+          "publishDate": "2022-09-30",
+          "lastUpdated": "2023-01-04",
+          "reportingPeriodStartDate": "2022-07-01",
+          "reportingPeriodEndDate": "2022-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2Q8w0000000924EAA",
+          "type": "staffing",
+          "reportingPeriodShortName": "Quarter 1 FY 22 - 23",
+          "reportingPeriodName": "Quarter 1 FY 22 - 23 (1 July 2022 - 30 September 2022)",
+          "publishDateUnix": 1664496000,
+          "lastUpdatedUnix": 1672832993,
+          "reportingPeriodStartDateUnix": 1656633600,
+          "reportingPeriodEndDateUnix": 1664496000,
+          "description": "Significant Improvement Needed",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        }
+      ],
+      "qualityMeasures": [
+        {
+          "rating": 3,
+          "publishDate": "2024-09-30",
+          "lastUpdated": "2024-12-11",
+          "reportingPeriodStartDate": "2024-07-01",
+          "reportingPeriodEndDate": "2024-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2pOl0000008Hq5IAE",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 1 FY 24 - 25",
+          "reportingPeriodName": "Quarter 1 FY 24 - 25 (1 July 2024 - 30 September 2024)",
+          "publishDateUnix": 1727654400,
+          "lastUpdatedUnix": 1733917794,
+          "reportingPeriodStartDateUnix": 1719792000,
+          "reportingPeriodEndDateUnix": 1727654400,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Current Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 4,
+          "publishDate": "2024-06-30",
+          "lastUpdated": "2024-10-03",
+          "reportingPeriodStartDate": "2024-04-01",
+          "reportingPeriodEndDate": "2024-06-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2pOl0000005jHRIAY",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 4 FY 23 - 24",
+          "reportingPeriodName": "Quarter 4 FY 23 - 24 (1 April 2024 - 30 June 2024)",
+          "publishDateUnix": 1719705600,
+          "lastUpdatedUnix": 1727998624,
+          "reportingPeriodStartDateUnix": 1711929600,
+          "reportingPeriodEndDateUnix": 1719705600,
+          "description": "Good",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Previous Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2024-03-31",
+          "lastUpdated": "2024-06-27",
+          "reportingPeriodStartDate": "2024-01-01",
+          "reportingPeriodEndDate": "2024-03-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2pOl0000003tXpIAI",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 3 FY 23 - 24",
+          "reportingPeriodName": "Quarter 3 FY 23 - 24 (1 January 2024 - 31 March 2024)",
+          "publishDateUnix": 1711843200,
+          "lastUpdatedUnix": 1719486772,
+          "reportingPeriodStartDateUnix": 1704067200,
+          "reportingPeriodEndDateUnix": 1711843200,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Previous Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 4,
+          "publishDate": "2023-12-31",
+          "lastUpdated": "2024-04-18",
+          "reportingPeriodStartDate": "2023-10-01",
+          "reportingPeriodEndDate": "2023-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2pOl0000002AHpIAM",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 2 FY 23 - 24",
+          "reportingPeriodName": "Quarter 2 FY 23 - 24 (1 October 2023 - 31 December 2023)",
+          "publishDateUnix": 1703980800,
+          "lastUpdatedUnix": 1713422564,
+          "reportingPeriodStartDateUnix": 1696118400,
+          "reportingPeriodEndDateUnix": 1703980800,
+          "description": "Good",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-09-30",
+          "lastUpdated": "2024-02-26",
+          "reportingPeriodStartDate": "2023-07-01",
+          "reportingPeriodEndDate": "2023-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2pOl0000000WKrIAM",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 1 FY 23 - 24",
+          "reportingPeriodName": "Quarter 1 FY 23 - 24 (1 July 2023 - 30 September 2023)",
+          "publishDateUnix": 1696032000,
+          "lastUpdatedUnix": 1708987110,
+          "reportingPeriodStartDateUnix": 1688169600,
+          "reportingPeriodEndDateUnix": 1696032000,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-06-30",
+          "lastUpdated": "2023-11-28",
+          "reportingPeriodStartDate": "2023-04-01",
+          "reportingPeriodEndDate": "2023-06-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2p8w0000001GCDAA2",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 4 FY 22 - 23",
+          "reportingPeriodName": "Quarter 4 FY 22 - 23 (1 April 2023 - 30 June 2023)",
+          "publishDateUnix": 1688083200,
+          "lastUpdatedUnix": 1701164235,
+          "reportingPeriodStartDateUnix": 1680307200,
+          "reportingPeriodEndDateUnix": 1688083200,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "draft",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 5,
+          "publishDate": "2023-03-31",
+          "lastUpdated": "2023-07-28",
+          "reportingPeriodStartDate": "2023-01-01",
+          "reportingPeriodEndDate": "2023-03-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2p8w0000000yEIAAY",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 3 FY 22 - 23",
+          "reportingPeriodName": "Quarter 3 FY 22 - 23 (1 January 2023 - 31 March 2023)",
+          "publishDateUnix": 1680220800,
+          "lastUpdatedUnix": 1690525002,
+          "reportingPeriodStartDateUnix": 1672531200,
+          "reportingPeriodEndDateUnix": 1680220800,
+          "description": "Excellent",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2022-12-31",
+          "lastUpdated": "2023-03-22",
+          "reportingPeriodStartDate": "2022-10-01",
+          "reportingPeriodEndDate": "2022-12-31",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2p8w0000000Zn8AAE",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 2 FY 22 - 23",
+          "reportingPeriodName": "Quarter 2 FY 22 - 23 (1 October 2022 - 31 December 2022)",
+          "publishDateUnix": 1672444800,
+          "lastUpdatedUnix": 1679476924,
+          "reportingPeriodStartDateUnix": 1664582400,
+          "reportingPeriodEndDateUnix": 1672444800,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 5,
+          "publishDate": "2022-09-30",
+          "lastUpdated": "2023-01-04",
+          "reportingPeriodStartDate": "2022-07-01",
+          "reportingPeriodEndDate": "2022-09-30",
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a2p8w0000000THWAA2",
+          "type": "qualityMeasures",
+          "reportingPeriodShortName": "Quarter 1 FY 22 - 23",
+          "reportingPeriodName": "Quarter 1 FY 22 - 23 (1 July 2022 - 30 September 2022)",
+          "publishDateUnix": 1664496000,
+          "lastUpdatedUnix": 1672832993,
+          "reportingPeriodStartDateUnix": 1656633600,
+          "reportingPeriodEndDateUnix": 1664496000,
+          "description": "Excellent",
+          "lateSubmission": false,
+          "qmStatus": "Submitted",
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        }
+      ],
+      "compliance": [
+        {
+          "rating": 4,
+          "publishDate": "2024-02-01",
+          "lastUpdated": "2024-02-01",
+          "reportingPeriodStartDate": 0,
+          "reportingPeriodEndDate": 0,
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a3COl000003roOLMAY",
+          "type": "compliance",
+          "reportingPeriodShortName": "",
+          "reportingPeriodName": "",
+          "publishDateUnix": 1706781623,
+          "lastUpdatedUnix": 1706781623,
+          "reportingPeriodStartDateUnix": 0,
+          "reportingPeriodEndDateUnix": 0,
+          "description": "Good",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "Current Rating",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-03-07",
+          "lastUpdated": "2023-03-07",
+          "reportingPeriodStartDate": 0,
+          "reportingPeriodEndDate": 0,
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a3C8w0000000HwqEAE",
+          "type": "compliance",
+          "reportingPeriodShortName": "",
+          "reportingPeriodName": "",
+          "publishDateUnix": 1678183213,
+          "lastUpdatedUnix": 1678183213,
+          "reportingPeriodStartDateUnix": 0,
+          "reportingPeriodEndDateUnix": 0,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 3,
+          "publishDate": "2023-02-01",
+          "lastUpdated": "2023-02-01",
+          "reportingPeriodStartDate": 0,
+          "reportingPeriodEndDate": 0,
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a3C8w0000000GOfEAM",
+          "type": "compliance",
+          "reportingPeriodShortName": "",
+          "reportingPeriodName": "",
+          "publishDateUnix": 1675214399,
+          "lastUpdatedUnix": 1675214399,
+          "reportingPeriodStartDateUnix": 0,
+          "reportingPeriodEndDateUnix": 0,
+          "description": "Acceptable",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        },
+        {
+          "rating": 5,
+          "publishDate": "2022-12-05",
+          "lastUpdated": "2022-12-05",
+          "reportingPeriodStartDate": 0,
+          "reportingPeriodEndDate": 0,
+          "overrideReason": "",
+          "overrideAdditionalInformation": "",
+          "explanatoryNote": "",
+          "ratingId": "a3C8w00000009mfEAA",
+          "type": "compliance",
+          "reportingPeriodShortName": "",
+          "reportingPeriodName": "",
+          "publishDateUnix": 1670272429,
+          "lastUpdatedUnix": 1670272429,
+          "reportingPeriodStartDateUnix": 0,
+          "reportingPeriodEndDateUnix": 0,
+          "description": "Excellent",
+          "lateSubmission": false,
+          "qmStatus": null,
+          "publishStatus": "live",
+          "ratingUpdateStatus": "",
+          "dataSource": "Database"
+        }
+      ],
+      "_displayed": {
+        "overall": "a38Ol000002CR08IAG",
+        "compliance": "a3COl000003roOLMAY",
+        "qualityMeasures": "a2pOl0000008Hq5IAE",
+        "residentsExperience": "a34Ol0000008O0LIAU",
+        "staffing": "a2QOl000000qe4cMAA"
+      }
+    },
+    "operationsData": {
+      "food": {
+        "lunch": {
+          "value": {
+            "id": "Q.F.2M571100000",
+            "value": "Cook fresh",
+            "source": "QFR",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        },
+        "dinner": {
+          "value": {
+            "id": "Q.F.2M571200000",
+            "value": "Cook fresh",
+            "source": "QFR",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        },
+        "breakfast": {
+          "value": {
+            "id": "Q.F.2M571000000",
+            "value": "Cook fresh",
+            "source": "QFR",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        },
+        "preparedOnsite": {
+          "value": {
+            "id": "Q.F.2C58.1.2.11.1.2.000",
+            "value": "100%",
+            "source": "QFR",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        },
+        "preparedOffsite": {
+          "value": {
+            "id": "Q.F.2C58.1.2.21.1.2.000",
+            "value": "0%",
+            "source": "QFR",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        },
+        "residentsPerDay": {
+          "value": {
+            "id": "Q.F.2A58.1.2.100000",
+            "value": 16,
+            "source": "QFR",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          "median": {
+            "id": "Q.F.2A58.1.2.100000",
+            "value": 14,
+            "source": "QFR",
+            "lastUpdated": "2025-02-18T08:57:04"
+          }
+        }
+      },
+      "serviceInfo": {
+        "napsId": [136, "medians"],
+        "providerId": [2496, "medians"],
+        "lastUpdated": "2025-02-14T11:06:33",
+        "serviceName": "Calvary Muswellbrook Retirement Community",
+        "serviceType": ["residentialCare", "medians"],
+        "providerName": "Calvary Retirement Communities Limited"
+      },
+      "agedCareHomes": {
+        "occupancy": {
+          "value": {
+            "id": "ACMPS.001",
+            "value": "91-100%",
+            "source": "ACMPS",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          "median": {
+            "id": "ACMPS.001",
+            "value": "81-90%",
+            "source": "ACMPS",
+            "lastUpdated": "2025-02-18T17:25:20"
+          }
+        },
+        "residents": {
+          "lastYear": {
+            "id": "ACMPS.003",
+            "value": "60-79",
+            "source": "ACMPS",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          "newResidents": {
+            "id": "ACMPS.004",
+            "value": "20-39",
+            "source": "ACMPS",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          "ceasedResidents": {
+            "id": "ACMPS.005",
+            "value": "20-39",
+            "source": "ACMPS",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        }
+      },
+      "governingBody": {
+        "feedback": [
+          {
+            "id": "FEEDBACK_1",
+            "value": "Communication and consultation",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          {
+            "id": "FEEDBACK_2",
+            "value": "Food and catering",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          {
+            "id": "FEEDBACK_3",
+            "value": "Staff behaviour/conduct",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        ],
+        "inclusion": {
+          "policies": {
+            "id": "DEV_IMP_CA",
+            "value": "Implemented",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          "culturalSafety": {
+            "id": "DEV_CULTURAL_SAFETY",
+            "value": "Implemented",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          "socialActivities": {
+            "id": "DEV_SOCIAL_ACTIVITIES",
+            "value": "Implemented",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        },
+        "personnel": [
+          {
+            "name": {
+              "id": "PRO_KEY_PERSO_NAME_1",
+              "value": "Martin Bowles",
+              "source": "APO",
+              "lastUpdated": "2025-02-14T10:57:08"
+            },
+            "role": {
+              "id": "PRO_KEY_PERSO_ROLE_1",
+              "value": "Chief Executive Officer",
+              "source": "APO",
+              "lastUpdated": "2025-02-14T10:57:08"
+            }
+          }
+        ],
+        "complaints": [
+          {
+            "id": "COMPLAINT_1",
+            "value": "Communication and consultation",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          {
+            "id": "COMPLAINT_2",
+            "value": "Food and catering",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          {
+            "id": "COMPLAINT_3",
+            "value": "Staff behaviour/conduct",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        ],
+        "improvements": [
+          {
+            "id": "IMPROVEMENT_1",
+            "value": "Clinical care",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          {
+            "id": "IMPROVEMENT_2",
+            "value": "Food and catering",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          },
+          {
+            "id": "IMPROVEMENT_3",
+            "value": "Staff training/skills/qualifications",
+            "source": "APO",
+            "lastUpdated": "2025-02-14T10:57:08"
+          }
+        ],
+        "representation": {
+          "id": "PRO_DEV_FMS",
+          "value": ["Cultural and linguistic diversity"],
+          "source": "APO",
+          "lastUpdated": "2025-02-14T10:57:08"
+        }
+      },
+      "financialReport": {
+        "annual": {
+          "income": {
+            "items": {
+              "other": {
+                "total": {
+                  "id": "P.A.2.410000000.3.Total",
+                  "value": 0,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.410000000.3",
+                  "value": 0,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "medianComparison": {
+                  "id": "P.A.2.410000000.3.pas",
+                  "value": "100% below average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.410000000.3",
+                  "value": 3.83,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.410000000.3.Total",
+                  "value": 3.83,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "governmentFunding": {
+                "total": {
+                  "id": "P.A.2.410000000.2.Total",
+                  "value": 344.93,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.410000000.2",
+                  "value": 344.93,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "medianComparison": {
+                  "id": "P.A.2.410000000.2.pas",
+                  "value": "15% above average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T11:06:33"
+                },
+                "median": {
+                  "id": "P.A.2.410000000.2",
+                  "value": 301.16,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.410000000.2.Total",
+                  "value": 301.16,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "residentsContributions": {
+                "total": {
+                  "id": "P.A.2.410000000.1.Total",
+                  "value": 85.13,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.410000000.1",
+                  "value": 85.13,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "medianComparison": {
+                  "id": "P.A.2.410000000.1.pas",
+                  "value": "4% below average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.410000000.1",
+                  "value": 88.57,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.410000000.1.Total",
+                  "value": 88.57,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              }
+            },
+            "total": {
+              "value": {
+                "id": "P.A.2.410000000",
+                "value": 430.06,
+                "source": "ACFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "P.A.2.410000000",
+                "value": 404.78,
+                "source": "ACFR",
+                "lastUpdated": "2025-02-18T17:25:20"
+              }
+            }
+          },
+          "expenses": {
+            "items": {
+              "laundry": {
+                "value": {
+                  "id": "P.A.2.512300000",
+                  "value": 5.97,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.512300000",
+                  "value": 4.98,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "cleaning": {
+                "value": {
+                  "id": "P.A.2.512200000",
+                  "value": 7.06,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.512200000",
+                  "value": 10.63,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "careNursing": {
+                "total": {
+                  "id": "P.A.2.511000000.Total",
+                  "value": 224.5,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.511000000",
+                  "value": 224.5,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "subitems": {
+                  "alliedHealth": {
+                    "value": {
+                      "id": "P.A.2.5111.1.2.4000",
+                      "value": 6.16,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-14T10:57:08"
+                    },
+                    "median": {
+                      "id": "P.A.2.5111.1.2.4000",
+                      "value": 5.3,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-18T17:25:20"
+                    }
+                  },
+                  "enrolledNurses": {
+                    "value": {
+                      "id": "P.A.2.5111.1.2.1200",
+                      "value": 0,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-14T10:57:08"
+                    },
+                    "median": {
+                      "id": "P.A.2.5111.1.2.1200",
+                      "value": 9.13,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-18T17:25:20"
+                    }
+                  },
+                  "registeredNurses": {
+                    "value": {
+                      "id": "P.A.2.5111.1.2.1100",
+                      "value": 46.64,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-14T10:57:08"
+                    },
+                    "median": {
+                      "id": "P.A.2.5111.1.2.1100",
+                      "value": 55.26,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-18T17:25:20"
+                    }
+                  },
+                  "personalCareStaff": {
+                    "value": {
+                      "id": "P.A.2.5111.1.2.2000",
+                      "value": 152.79,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-14T10:57:08"
+                    },
+                    "median": {
+                      "id": "P.A.2.5111.1.2.2000",
+                      "value": 130.73,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-18T17:25:20"
+                    }
+                  },
+                  "careManagementStaff": {
+                    "value": {
+                      "id": "P.A.2.5111.1.2.3000",
+                      "value": 5.33,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-14T10:57:08"
+                    },
+                    "median": {
+                      "id": "P.A.2.5111.1.2.3000",
+                      "value": 6.18,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-18T17:25:20"
+                    }
+                  },
+                  "otherLabourAndCareExpenses": {
+                    "value": {
+                      "id": "P.A.2.511.2.3.00000",
+                      "value": 8.73,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-14T10:57:08"
+                    },
+                    "median": {
+                      "id": "P.A.2.511.2.3.00000",
+                      "value": 16.07,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-18T17:25:20"
+                    }
+                  },
+                  "lifestyleAndRecreationWorkers": {
+                    "value": {
+                      "id": "P.A.2.5111.1.2.5000",
+                      "value": 4.84,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-14T10:57:08"
+                    },
+                    "median": {
+                      "id": "P.A.2.5111.1.2.5000",
+                      "value": 5.41,
+                      "source": "ACFR",
+                      "lastUpdated": "2025-02-18T17:25:20"
+                    }
+                  }
+                },
+                "medianComparison": {
+                  "id": "P.A.2.511000000.pas",
+                  "value": "5% below average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.511000000",
+                  "value": 236.66,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.511000000.Total",
+                  "value": 236.66,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "maintenance": {
+                "value": {
+                  "id": "P.A.2.512400000",
+                  "value": 10.94,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.512400000",
+                  "value": 11.98,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "foodCatering": {
+                "total": {
+                  "id": "P.A.2.512100000.Total",
+                  "value": 40.3,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.512100000",
+                  "value": 40.3,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "medianComparison": {
+                  "id": "P.A.2.512100000.pas",
+                  "value": "1% above average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.512100000",
+                  "value": 39.87,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.512100000.Total",
+                  "value": 39.87,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "accommodation": {
+                "value": {
+                  "id": "P.A.2.514000000.1",
+                  "value": 31.82,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.514000000.1",
+                  "value": 24.57,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "administration": {
+                "total": {
+                  "id": "P.A.2.513000000.Total",
+                  "value": 44.17,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.513000000",
+                  "value": 44.17,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "medianComparison": {
+                  "id": "P.A.2.513000000.pas",
+                  "value": "13% below average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T11:06:33"
+                },
+                "median": {
+                  "id": "P.A.2.513000000",
+                  "value": 50.57,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.513000000.Total",
+                  "value": 50.57,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "cleaningLaundry": {
+                "total": {
+                  "id": "P.A.2.510000000.1.Total",
+                  "value": 29.01,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.510000000.1",
+                  "value": 29.01,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "medianComparison": {
+                  "id": "P.A.2.510000000.1.pas",
+                  "value": "3% above average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T11:06:33"
+                },
+                "median": {
+                  "id": "P.A.2.510000000.1",
+                  "value": 28.27,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.510000000.1.Total",
+                  "value": 28.27,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "accommodationMaintenance": {
+                "total": {
+                  "id": "P.A.2.514000000.Total",
+                  "value": 42.77,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "value": {
+                  "id": "P.A.2.514000000",
+                  "value": 42.77,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "medianComparison": {
+                  "id": "P.A.2.514000000.pas",
+                  "value": "13% above average",
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.514000000",
+                  "value": 37.85,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                },
+                "medianTotal": {
+                  "id": "P.A.2.514000000.Total",
+                  "value": 37.85,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "covidAndInfectionControl": {
+                "value": {
+                  "id": "P.A.2.515000000",
+                  "value": 7.92,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.515000000",
+                  "value": 1.26,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              },
+              "otherRelatedCleaningLaundry": {
+                "value": {
+                  "id": "P.A.2.512900000",
+                  "value": 8.06,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-14T10:57:08"
+                },
+                "median": {
+                  "id": "P.A.2.512900000",
+                  "value": 9.61,
+                  "source": "ACFR",
+                  "lastUpdated": "2025-02-18T17:25:20"
+                }
+              }
+            },
+            "total": {
+              "value": {
+                "id": "P.A.2.510000000",
+                "value": 380.75,
+                "source": "ACFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "P.A.2.510000000",
+                "value": 395.27,
+                "source": "ACFR",
+                "lastUpdated": "2025-02-18T17:25:20"
+              }
+            }
+          },
+          "reportingPeriod": {
+            "value": {
+              "reportingPeriod": "2023-24",
+              "reportingPeriodId": "RP-517",
+              "latestReportingPeriod": "",
+              "reportingPeriodEndDate": "2024-06-30T00:00:00",
+              "reportingPeriodStartDate": "2023-07-01T00:00:00"
+            },
+            "median": {
+              "reportingPeriod": "2023-24",
+              "reportingPeriodId": "RP-517",
+              "latestReportingPeriod": true,
+              "reportingPeriodEndDate": "2024-06-30T00:00:00",
+              "reportingPeriodStartDate": "2023-07-01T00:00:00"
+            }
+          },
+          "dailyPerResident": {
+            "value": {
+              "id": "P.A.2.610000000",
+              "value": 49.31,
+              "source": "ACFR",
+              "lastUpdated": "2025-02-14T10:57:08"
+            },
+            "median": {
+              "id": "P.A.2.610000000",
+              "value": 10.2,
+              "source": "ACFR",
+              "lastUpdated": "2025-02-18T17:25:20"
+            }
+          }
+        },
+        "quarterly": {
+          "wages": {
+            "achTotal": {
+              "total": {
+                "id": "Q.2.P.511110000.Total",
+                "value": 207.73,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "value": {
+                "id": "Q.2.P.511110000",
+                "value": 207.73,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "medianComparison": {
+                "id": "Q.2.P.511110000.pas",
+                "value": "7% below average",
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511110000",
+                "value": 223.87,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              },
+              "medianTotal": {
+                "id": "Q.2.P.511110000.Total",
+                "value": 223.87,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achDietetics": {
+              "value": {
+                "id": "Q.2.P.511114100",
+                "value": 0.05,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511114100",
+                "value": 0.24,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achPodiatrists": {
+              "value": {
+                "id": "Q.2.P.511114600",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511114600",
+                "value": 0.35,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achEnrolledNurses": {
+              "value": {
+                "id": "Q.2.P.511111200",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511111200",
+                "value": 8.33,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achPhysiotherapists": {
+              "value": {
+                "id": "Q.2.P.511114200",
+                "value": 5.02,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511114200",
+                "value": 3.44,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achRegisteredNurses": {
+              "value": {
+                "id": "Q.2.P.511111100",
+                "value": 52.29,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511111100",
+                "value": 58.81,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achOtherAlliedHealth": {
+              "value": {
+                "id": "Q.2.P.511114400",
+                "value": 0.55,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511114400",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achPersonalCareWorker": {
+              "value": {
+                "id": "Q.2.P.511112000",
+                "value": 138.1,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511112000",
+                "value": 134.18,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achSpeechPathologists": {
+              "value": {
+                "id": "Q.2.P.511114300",
+                "value": 0.22,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511114300",
+                "value": 0.17,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "staffingEnrolledNurse": {
+              "value": {
+                "id": "Q.2R572000000",
+                "value": 34.46,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "hourlyRateMax": {
+                "id": "Q.2R572100000",
+                "value": 42.19,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "hourlyRateMin": {
+                "id": "Q.2R572200000",
+                "value": 32.24,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2R572000000",
+                "value": 36,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achCareManagementStaff": {
+              "value": {
+                "id": "Q.2.P.511113000",
+                "value": 5.96,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511113000",
+                "value": 5.01,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "staffingRegisteredNurse": {
+              "value": {
+                "id": "Q.2R571000000",
+                "value": 46.28,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "hourlyRateMax": {
+                "id": "Q.2R571100000",
+                "value": 54.46,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "hourlyRateMin": {
+                "id": "Q.2R571200000",
+                "value": 34.98,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2R571000000",
+                "value": 50.21,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achAlliedHealthAssistants": {
+              "value": {
+                "id": "Q.2.P.511114700",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511114700",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achOccupationalTherapists": {
+              "value": {
+                "id": "Q.2.P.511114500",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511114500",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "staffingPersonalCareWorker": {
+              "value": {
+                "id": "Q.2R573000000",
+                "value": 31.73,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "hourlyRateMax": {
+                "id": "Q.2R573100000",
+                "value": 42.19,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "hourlyRateMin": {
+                "id": "Q.2R573200000",
+                "value": 29.33,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2R573000000",
+                "value": 31.86,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "achLifestyleAndRecreationWorkers": {
+              "value": {
+                "id": "Q.2.P.511115000",
+                "value": 5.54,
+                "source": "QFR",
+                "lastUpdated": "2025-02-14T10:57:08"
+              },
+              "median": {
+                "id": "Q.2.P.511115000",
+                "value": 5.18,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "hcpEnrolledNurse": {
+              "median": {
+                "id": "Q.HR720000",
+                "value": 0,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "hcpHomeCareWorker": {
+              "median": {
+                "id": "Q.HR730000",
+                "value": 33.57,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            },
+            "hcpRegisteredNurse": {
+              "median": {
+                "id": "Q.HR710000",
+                "value": 45,
+                "source": "QFR",
+                "lastUpdated": "2025-02-18T08:57:04"
+              }
+            }
+          },
+          "reportingPeriod": {
+            "value": {
+              "reportingPeriod": "Quarter 1 FY 24 - 25",
+              "reportingPeriodId": "RP-129",
+              "latestReportingPeriod": "",
+              "reportingPeriodEndDate": "2024-09-30T00:00:00",
+              "reportingPeriodStartDate": "2024-07-01T00:00:00"
+            },
+            "median": {
+              "reportingPeriod": "Quarter 1 FY 24 - 25",
+              "reportingPeriodId": "RP-129",
+              "latestReportingPeriod": true,
+              "reportingPeriodEndDate": "2024-09-30T00:00:00",
+              "reportingPeriodStartDate": "2024-07-01T00:00:00"
+            }
+          }
+        }
+      }
+    },
+    "ach_room_costs": {
+      "name": "Calvary Muswellbrook Retirement Community",
+      "availability": "Yes",
+      "subtypes": [
+        {
+          "nid": "1104631",
+          "id": "1-9R9XMUQ",
+          "productName": "Single room + ensuite",
+          "roomStatus": "Operational",
+          "roomDescription": "Premium Single room with ensuite with garden views, large spacious room with private ensuite, plenty of cupboard space, flatscreen wall mounted tv,",
+          "roomAvailability": null,
+          "additionalAmenities": "Not applicable",
+          "additionalCare": "Not applicable",
+          "commonAreaDescription": "Enjoy this brand new purpose built facility with secure gardens, cafe, activities room, community garden, children's playground, community bbq areas, gym, wellness centre, hair salon",
+          "extraServiceFees": null,
+          "exampleDAPDollar": "55.96",
+          "exampleDAPPercentage": "50",
+          "exampleRADDollar": "250000",
+          "exampleRADPercentage": "50",
+          "extraServiceFeesAmount": "0",
+          "maximumDAP": "111.92",
+          "maximumRAD": "500000",
+          "paymentOptions": "Residents can choose to pay for their accommodation by a refundable deposit, a daily payment or a combination of both. A refundable deposit is paid as a lump sum amount. A daily payment accrues daily and is paid periodically, for example monthly. A combination payment includes both a partial lump sum and daily payments.",
+          "attributes": [
+            {
+              "dataType": "Boolean",
+              "value": "N",
+              "name": "Extra service"
+            },
+            {
+              "dataType": "Number",
+              "value": "1",
+              "name": "Maximum Room Occupancy"
+            },
+            {
+              "dataType": "Number",
+              "value": "2",
+              "name": "Number of Rooms of Type"
+            },
+            {
+              "dataType": "Text",
+              "value": "Premium Single room with ensuite",
+              "name": "Room Name"
+            },
+            {
+              "dataType": "Text",
+              "value": "30",
+              "name": "Room Size"
+            }
+          ]
+        },
+        {
+          "nid": "1104634",
+          "id": "1-ES-2867",
+          "productName": "Single room + ensuite",
+          "roomStatus": "Operational",
+          "roomDescription": "Brand new light filled rooms, dual entry doors, large flatbed tv, specially designed beds, garden views, private ensuite. For further details please visit www.calvarycare.org.au",
+          "roomAvailability": null,
+          "additionalAmenities": "Postal service, hairdressing and beautician services, allied health, pharmacy supplies\n",
+          "additionalCare": "Shopping trips, trivia nights, bingo/housie, arts and crafts, word/floor/table games, reminiscence, exercises, movies and music, tours/outings, facility has own bus",
+          "commonAreaDescription": "Secure gardens, activities room, community gardens, children's playground, cafe, gym, wellness centre, hair salon, brand new facility, purpose built. For further details please visit www.calvarycare.org.au",
+          "extraServiceFees": null,
+          "exampleDAPDollar": "47.01",
+          "exampleDAPPercentage": "50",
+          "exampleRADDollar": "210000",
+          "exampleRADPercentage": "50",
+          "extraServiceFeesAmount": "0",
+          "maximumDAP": "94.01",
+          "maximumRAD": "420000",
+          "paymentOptions": "Residents can choose to pay for their accommodation by refundable deposit, a daily payment, or a combination of both. A refundable deposit is paid as a lump sum amount. A daily payment accrues daily and is paid periodically, for example monthly. A combination payment includes both a partial lump sum and daily payments",
+          "attributes": [
+            {
+              "dataType": "Boolean",
+              "value": "N",
+              "name": "Extra service"
+            },
+            {
+              "dataType": "Number",
+              "value": "1",
+              "name": "Maximum Room Occupancy"
+            },
+            {
+              "dataType": "Number",
+              "value": "33",
+              "name": "Number of Rooms of Type"
+            },
+            {
+              "dataType": "Text",
+              "value": "Single Room with Ensuite",
+              "name": "Room Name"
+            },
+            {
+              "dataType": "Text",
+              "value": "17",
+              "name": "Room Size"
+            }
+          ]
+        },
+        {
+          "nid": "1104636",
+          "id": "1-9RA62V6",
+          "productName": "Shared room + shared bathroom",
+          "roomStatus": "Operational",
+          "roomDescription": "Brand new facility offering light filled aged care rooms. Garden views, flatscreen wall mounted tv,",
+          "roomAvailability": null,
+          "additionalAmenities": "Not applicable",
+          "additionalCare": "Not applicable",
+          "commonAreaDescription": "Brand new purpose built facility featuring cafe, gym, salon, wellness centre, secure gardens, community gardens, community bbq areas, children's playgrounds,",
+          "extraServiceFees": null,
+          "exampleDAPDollar": "39.17",
+          "exampleDAPPercentage": "50",
+          "exampleRADDollar": "175000",
+          "exampleRADPercentage": "50",
+          "extraServiceFeesAmount": "0",
+          "maximumDAP": "78.34",
+          "maximumRAD": "350000",
+          "paymentOptions": "Residents can choose to pay for their accommodation by a refundable deposit, a daily payment or a combination of both. A refundable deposit is paid as a lump sum amount. A daily payment accrues daily and is paid periodically, for example monthly. A combination payment includes both a partial lump sum and daily payments.",
+          "attributes": [
+            {
+              "dataType": "Boolean",
+              "value": "N",
+              "name": "Extra service"
+            },
+            {
+              "dataType": "Number",
+              "value": "2",
+              "name": "Maximum Room Occupancy"
+            },
+            {
+              "dataType": "Number",
+              "value": "14",
+              "name": "Number of Rooms of Type"
+            },
+            {
+              "dataType": "Text",
+              "value": "Shared Room",
+              "name": "Room Name"
+            },
+            {
+              "dataType": "Text",
+              "value": "30",
+              "name": "Room Size"
+            }
+          ]
+        }
+      ]
+    },
+    "ach_quality": {
+      "qualityMeasures": {
+        "_dataSource": "Rating ID: a2pOl0000008Hq5IAE",
+        "pressureInjuries": {
+          "percentage": 2,
+          "comparison": 1,
+          "comparisonOutcome": "Above"
+        },
+        "restrictivePractices": {
+          "percentage": 21,
+          "comparison": 2,
+          "comparisonOutcome": "Above"
+        },
+        "unplannedWeightLoss": {
+          "percentage": 14,
+          "comparison": 6,
+          "comparisonOutcome": "Above"
+        },
+        "falls": {
+          "percentage": 24,
+          "comparison": -7,
+          "comparisonOutcome": "Below"
+        },
+        "fallsMajorInjury": {
+          "percentage": 3,
+          "comparison": 1,
+          "comparisonOutcome": "Above"
+        },
+        "medications": {
+          "percentage": 65,
+          "comparison": 29,
+          "comparisonOutcome": "Above"
+        },
+        "medicationsAntipsychotic": {
+          "percentage": 2,
+          "comparison": -7,
+          "comparisonOutcome": "Below"
+        }
+      },
+      "residentsExperience": {
+        "iv_commenced_date": "2024-08-06T00:00:00.000Z",
+        "consumers_questions": {
+          "food": {
+            "never": 0,
+            "score": 2.69,
+            "always": 7.69,
+            "rating": 3,
+            "most_of_the_time": 53.85,
+            "some_of_the_time": 38.46
+          },
+          "home": {
+            "never": 0,
+            "score": 3.69,
+            "always": 76.92,
+            "rating": 4,
+            "most_of_the_time": 15.38,
+            "some_of_the_time": 7.69
+          },
+          "voice": {
+            "never": 0,
+            "score": 3.92,
+            "always": 92.31,
+            "rating": 4,
+            "most_of_the_time": 7.69,
+            "some_of_the_time": 0
+          },
+          "caring": {
+            "never": 0,
+            "score": 3.62,
+            "always": 69.23,
+            "rating": 4,
+            "most_of_the_time": 23.08,
+            "some_of_the_time": 7.69
+          },
+          "safety": {
+            "never": 0,
+            "score": 4,
+            "always": 100,
+            "rating": 5,
+            "most_of_the_time": 0,
+            "some_of_the_time": 0
+          },
+          "explain": {
+            "never": 0,
+            "score": 3.38,
+            "always": 53.85,
+            "rating": 4,
+            "most_of_the_time": 30.77,
+            "some_of_the_time": 15.38
+          },
+          "respect": {
+            "never": 0,
+            "score": 3.62,
+            "always": 69.23,
+            "rating": 4,
+            "most_of_the_time": 23.08,
+            "some_of_the_time": 7.69
+          },
+          "competent": {
+            "never": 0,
+            "score": 3.46,
+            "always": 46.15,
+            "rating": 4,
+            "most_of_the_time": 53.85,
+            "some_of_the_time": 0
+          },
+          "follow_up": {
+            "never": 0,
+            "score": 3.38,
+            "always": 46.15,
+            "rating": 4,
+            "most_of_the_time": 46.15,
+            "some_of_the_time": 7.69
+          },
+          "operation": {
+            "never": 0,
+            "score": 3.38,
+            "always": 46.15,
+            "rating": 4,
+            "most_of_the_time": 46.15,
+            "some_of_the_time": 7.69
+          },
+          "care_needed": {
+            "never": 0,
+            "score": 3.54,
+            "always": 53.85,
+            "rating": 4,
+            "most_of_the_time": 46.15,
+            "some_of_the_time": 0
+          },
+          "independent": {
+            "never": 0,
+            "score": 3.38,
+            "always": 46.15,
+            "rating": 4,
+            "most_of_the_time": 46.15,
+            "some_of_the_time": 7.69
+          }
+        },
+        "_dataSource": "Rating ID: a34Ol0000008O0LIAU"
+      },
+      "staffing": {
+        "totalCareMinutes": {
+          "target": 215,
+          "achieved": 202,
+          "comparison": 13,
+          "comparisonOutcome": "less"
+        },
+        "registeredNurseMinutes": {
+          "target": 42,
+          "achieved": 34,
+          "combined": 34,
+          "comparison": 8,
+          "comparisonOutcome": "less"
+        },
+        "personalCareWorkersAndAssistantsMinutes": {
+          "achieved": 168
+        },
+        "enrolledNurseMinutes": {
+          "achieved": 0,
+          "topUp": 0
+        },
+        "registeredNursingCoverage": {
+          "current": {
+            "reportingMonth": "1743379200",
+            "reportingMonthText": "March 2025",
+            "reportingPeriodId": "a30Ol000001CQHoIAO",
+            "sfRNRecordId": "a2bOl000001AYxVIAW",
+            "publicationStatus": "New",
+            "publicationDate": "1744650012",
+            "serviceCoverage": "24:00",
+            "submissionStatus": "Submitted",
+            "submissionExemptionStartDate": null,
+            "submissionExemptionEndDate": null,
+            "submissionExemptionReason": null,
+            "serviceTargetComparison": "00:00",
+            "serviceTargetComparisonResult": "Equal",
+            "fullCoverageExemptionStartDate": null,
+            "fullCoverageExemptionEndDate": null,
+            "noData": null,
+            "noDataReason": null,
+            "nationalAverage": "23:44",
+            "serviceAverageComparison": "00:16",
+            "serviceAverageComparisonResult": "Above"
+          },
+          "historical": [
+            {
+              "publicationDate": "1744650012",
+              "publicationStatus": "New",
+              "reportingMonth": "1743379200",
+              "reportingMonthText": "March 2025",
+              "reportingPeriodId": "a30Ol000001CQHoIAO",
+              "sfRNRecordId": "a2bOl000001AYxVIAW",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1741968035",
+              "publicationStatus": "New",
+              "reportingMonth": "1740700800",
+              "reportingMonthText": "February 2025",
+              "reportingPeriodId": "a30Ol000001CQHnIAO",
+              "sfRNRecordId": "a2bOl00000170QvIAI",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1739548822",
+              "publicationStatus": "New",
+              "reportingMonth": "1738281600",
+              "reportingMonthText": "January 2025",
+              "reportingPeriodId": "a30Ol000001CQHmIAO",
+              "sfRNRecordId": "a2bOl0000013JS9IAM",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1736870423",
+              "publicationStatus": "New",
+              "reportingMonth": "1735603200",
+              "reportingMonthText": "December 2024",
+              "reportingPeriodId": "a30Ol000001CQHlIAO",
+              "sfRNRecordId": "a2bOl000000xjp6IAA",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1734192011",
+              "publicationStatus": "New",
+              "reportingMonth": "1732924800",
+              "reportingMonthText": "November 2024",
+              "reportingPeriodId": "a30Ol000001CQHkIAO",
+              "sfRNRecordId": "a2bOl000000vEXgIAM",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1731600047",
+              "publicationStatus": "New",
+              "reportingMonth": "1730332800",
+              "reportingMonthText": "October 2024",
+              "reportingPeriodId": "a30Ol000001CQHjIAO",
+              "sfRNRecordId": "a2bOl000000s7UKIAY",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1728921631",
+              "publicationStatus": "New",
+              "reportingMonth": "1727654400",
+              "reportingMonthText": "September 2024",
+              "reportingPeriodId": "a30Ol000001CQHiIAO",
+              "sfRNRecordId": "a2bOl000000oY6YIAU",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1726333215",
+              "publicationStatus": "New",
+              "reportingMonth": "1725062400",
+              "reportingMonthText": "August 2024",
+              "reportingPeriodId": "a30Ol000001CQHhIAO",
+              "sfRNRecordId": "a2bOl000000lg8fIAA",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1723654814",
+              "publicationStatus": "New",
+              "reportingMonth": "1722384000",
+              "reportingMonthText": "July 2024",
+              "reportingPeriodId": "a30Ol000001CQHgIAO",
+              "sfRNRecordId": "a2bOl000000iyIFIAY",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1720976417",
+              "publicationStatus": "New",
+              "reportingMonth": "1719705600",
+              "reportingMonthText": "June 2024",
+              "reportingPeriodId": "a30Ol000001CQHfIAO",
+              "sfRNRecordId": "a2bOl000000g0jZIAQ",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1718384423",
+              "publicationStatus": "New",
+              "reportingMonth": "1717113600",
+              "reportingMonthText": "May 2024",
+              "reportingPeriodId": "a30Ol000001CQHeIAO",
+              "sfRNRecordId": "a2bOl000000d20LIAQ",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1715706013",
+              "publicationStatus": "New",
+              "reportingMonth": "1714435200",
+              "reportingMonthText": "April 2024",
+              "reportingPeriodId": "a30Ol000001CQHdIAO",
+              "sfRNRecordId": "a2bOl000000Yj9DIAS",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1713114015",
+              "publicationStatus": "New",
+              "reportingMonth": "1711843200",
+              "reportingMonthText": "March 2024",
+              "reportingPeriodId": "a30Ol000001CQHcIAO",
+              "sfRNRecordId": "a2bOl000000PjRlIAK",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1710432029",
+              "publicationStatus": "New",
+              "reportingMonth": "1709164800",
+              "reportingMonthText": "February 2024",
+              "reportingPeriodId": "a30Ol000001CQHbIAO",
+              "sfRNRecordId": "a2bOl000000LtmHIAS",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1707926415",
+              "publicationStatus": "New",
+              "reportingMonth": "1706659200",
+              "reportingMonthText": "January 2024",
+              "reportingPeriodId": "a30Ol000001CQHaIAO",
+              "sfRNRecordId": "a2bOl000000IyDqIAK",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1705248042",
+              "publicationStatus": "New",
+              "reportingMonth": "1703980800",
+              "reportingMonthText": "December 2023",
+              "reportingPeriodId": "a30Ol000001CQHZIA4",
+              "sfRNRecordId": "a2bOl000000FamLIAS",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1702569633",
+              "publicationStatus": "New",
+              "reportingMonth": "1701302400",
+              "reportingMonthText": "November 2023",
+              "reportingPeriodId": "a30Ol000001CQHYIA4",
+              "sfRNRecordId": "a2bOl000000DBdbIAG",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            },
+            {
+              "publicationDate": "1700409627",
+              "publicationStatus": "New",
+              "reportingMonth": "1698710400",
+              "reportingMonthText": "October 2023",
+              "reportingPeriodId": "a30Ol000001CQHXIA4",
+              "sfRNRecordId": "a2bOl000000AiEHIA0",
+              "serviceCoverage": "24:00",
+              "serviceCoveragePercent": "100",
+              "serviceTargetComparisonResult": "Equal",
+              "noData": null,
+              "noDataReason": null
+            }
+          ]
+        },
+        "_dataSource": "Rating ID: a2QOl000000qe4cMAA"
+      }
+    },
+    "ach_compliance": {
+      "qualityStandards": [
+        {
+          "activityGuid": "D2839E7A-8C62-EA11-9E51-005056922186",
+          "activityStartDate": "2020-03-10",
+          "activityEndDate": "",
+          "publishedDate": "2023-01-13",
+          "qualityStandardsHeader": [
+            {
+              "notMetList": "4.d",
+              "notMetCount": "1",
+              "metList": "1.a, 1.b, 1.c, 1.d, 1.e, 1.f, 2.a, 2.b, 2.c, 2.d, 2.e, 3.a, 3.b, 3.c, 3.d, 3.e, 3.f, 3.g, 4.a, 4.b, 4.c, 4.e, 4.f, 4.g, 5.a, 5.b, 5.c, 6.a, 6.b, 6.c, 6.d, 7.a, 7.b, 7.c, 7.d, 7.e, 8.a, 8.b, 8.c, 8.d, 8.e",
+              "metCount": "41",
+              "standardsVersion": "2",
+              "qualityStandardsId": "124814",
+              "qualityStandard": [
+                {
+                  "qualityStandard": "Quality Standard 1",
+                  "title": "Consumer dignity and choice",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I am treated with dignity and respect, and can maintain my identity. I can make informed choices about my care and services, and live the life I choose.</span>",
+                    "rendered": "<p>I am treated with dignity and respect, and can maintain my identity. I can make informed choices about my care and services, and live the life I choose.</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "1.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Each consumer is treated with dignity and respect, with their identity, culture and diversity valued.</span></span></span>",
+                        "rendered": "<p>Each consumer is treated with dignity and respect, with their identity, culture and diversity valued.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948371"
+                    },
+                    {
+                      "standardRequirement": "1.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Care and services are culturally safe.</span></span></span>",
+                        "rendered": "<p>Care and services are culturally safe.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948371"
+                    },
+                    {
+                      "standardRequirement": "1.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Each consumer is supported to exercise choice and independence:<br />\ni) make decisions about their own care and the way care and services are delivered.<br />\nii) make decisions about when family, friends, carers or others should be involved in their care.<br />\niii) communicate their decisions.<br />\niv) make connections with others and maintain relationships of choice, including intimate relationships.</span></span></span>",
+                        "rendered": "<p>Each consumer is supported to exercise choice and independence:<br><br />\ni) make decisions about their own care and the way care and services are delivered.<br><br />\nii) make decisions about when family, friends, carers or others should be involved in their care.<br><br />\niii) communicate their decisions.<br><br />\niv) make connections with others and maintain relationships of choice, including intimate relationships.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948371"
+                    },
+                    {
+                      "standardRequirement": "1.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Each consumer is supported to take risks to enable them to live the best life they can.</span>",
+                        "rendered": "<p>Each consumer is supported to take risks to enable them to live the best life they can.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948371"
+                    },
+                    {
+                      "standardRequirement": "1.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Information provided to each consumer is current, accurate and timely, and communicated in a way that is clear, easy to understand and enables them to exercise choice.</span>",
+                        "rendered": "<p>Information provided to each consumer is current, accurate and timely, and communicated in a way that is clear, easy to understand and enables them to exercise choice.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948371"
+                    },
+                    {
+                      "standardRequirement": "1.f",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Each consumer&rsquo;s privacy is respected and personal information is kept confidential.</span></span></span>",
+                        "rendered": "<p>Each consumer’s privacy is respected and personal information is kept confidential.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948371"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 2",
+                  "title": "Ongoing assessment and planning with consumers",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I am a partner in ongoing assessment and planning that helps me get the care and services I need for my health and well-being.</span><br />\n&nbsp;",
+                    "rendered": "<p>I am a partner in ongoing assessment and planning that helps me get the care and services I need for my health and well-being.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "2.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Assessment and planning, including consideration of risks to the consumer&rsquo;s health and well being, informs the delivery of safe and effective care and services.</span>",
+                        "rendered": "<p>Assessment and planning, including consideration of risks to the consumer’s health and well being, informs the delivery of safe and effective care and services.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948372"
+                    },
+                    {
+                      "standardRequirement": "2.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Assessment and planning identifies and addresses the consumer&rsquo;s current needs, goals and preferences, including advance care planning and end of life planning if the consumer wishes.</span>",
+                        "rendered": "<p>Assessment and planning identifies and addresses the consumer’s current needs, goals and preferences, including advance care planning and end of life planning if the consumer wishes.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948372"
+                    },
+                    {
+                      "standardRequirement": "2.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Assessment and planning </span></span></span><span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">is based on ongoing partnership with the consumer and others that the consumer wishes to involve in assessment, planning and review of the consumer&rsquo;s care and services; and includes other organisations, and individuals and providers of other care and services, that are involved in the care of the consumer.</span></span></span><div><div><div id=\"_com_1\" uage=\"JavaScript\"></div></div></div><div><div><div id=\"_com_1\" uage=\"JavaScript\"></div></div></div>",
+                        "rendered": "<p>Assessment and planning is based on ongoing partnership with the consumer and others that the consumer wishes to involve in assessment, planning and review of the consumer’s care and services; and includes other organisations, and individuals and providers of other care and services, that are involved in the care of the consumer.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948372"
+                    },
+                    {
+                      "standardRequirement": "2.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The outcomes of assessment and planning are effectively communicated to the consumer and documented in a care and services plan that is readily available to the consumer, and where care and services are provided.</span>",
+                        "rendered": "<p>The outcomes of assessment and planning are effectively communicated to the consumer and documented in a care and services plan that is readily available to the consumer, and where care and services are provided.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948372"
+                    },
+                    {
+                      "standardRequirement": "2.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Care and services are reviewed regularly for effectiveness, and when circumstances change or when incidents impact on the needs, goals or preferences of the consumer.</span>",
+                        "rendered": "<p>Care and services are reviewed regularly for effectiveness, and when circumstances change or when incidents impact on the needs, goals or preferences of the consumer.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948372"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 3",
+                  "title": "Personal care and clinical care",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I get personal care, clinical care, or both personal care and clinical care, that is safe and right for me.</span><br />\n&nbsp;",
+                    "rendered": "<p>I get personal care, clinical care, or both personal care and clinical care, that is safe and right for me.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "3.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Each consumer gets safe and effective personal care, clinical care, or both personal care and clinical care, that is best practice and is tailored to their needs and optimises their health and well being.</span>",
+                        "rendered": "<p>Each consumer gets safe and effective personal care, clinical care, or both personal care and clinical care, that is best practice and is tailored to their needs and optimises their health and well being.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948373"
+                    },
+                    {
+                      "standardRequirement": "3.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Effective management of high impact or high prevalence risks associated with the care of each consumer.</span>",
+                        "rendered": "<p>Effective management of high impact or high prevalence risks associated with the care of each consumer.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948373"
+                    },
+                    {
+                      "standardRequirement": "3.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The needs, goals and preferences of consumers nearing the end of life are recognised and addressed, their comfort maximised and their dignity preserved.</span>",
+                        "rendered": "<p>The needs, goals and preferences of consumers nearing the end of life are recognised and addressed, their comfort maximised and their dignity preserved.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948373"
+                    },
+                    {
+                      "standardRequirement": "3.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Deterioration or change of a consumer&rsquo;s mental health, cognitive or physical function, capacity or condition is recognised and responded to in a timely manner.</span></span></span>",
+                        "rendered": "<p>Deterioration or change of a consumer’s mental health, cognitive or physical function, capacity or condition is recognised and responded to in a timely manner.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948373"
+                    },
+                    {
+                      "standardRequirement": "3.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Information about the consumer&rsquo;s condition, needs and preferences is documented and communicated within the organisation, and with others where responsibility for care is shared.</span></span></span>",
+                        "rendered": "<p>Information about the consumer’s condition, needs and preferences is documented and communicated within the organisation, and with others where responsibility for care is shared.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948373"
+                    },
+                    {
+                      "standardRequirement": "3.f",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</span></span></span>",
+                        "rendered": "<p>Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948373"
+                    },
+                    {
+                      "standardRequirement": "3.g",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Minimisation of infection related risks through implementing: i) standard and transmission based precautions to prevent and control infection; and ii) practices to promote appropriate antibiotic prescribing and use to support optimal care and reduce the risk of increasing resistance to antibiotics.</span>",
+                        "rendered": "<p>Minimisation of infection related risks through implementing: i) standard and transmission based precautions to prevent and control infection; and ii) practices to promote appropriate antibiotic prescribing and use to support optimal care and reduce the risk of increasing resistance to antibiotics.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948373"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 4",
+                  "title": "Services and supports for daily living",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I get the services and supports for daily living that are important for my health and well-being and that enable me to do the things I want to do.</span><br />\n&nbsp;",
+                    "rendered": "<p>I get the services and supports for daily living that are important for my health and well-being and that enable me to do the things I want to do.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "4.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Each consumer gets safe and effective services and supports for daily living that meet the consumer&rsquo;s needs, goals and preferences and optimise their independence, health, well being and quality of life.</span>",
+                        "rendered": "<p>Each consumer gets safe and effective services and supports for daily living that meet the consumer’s needs, goals and preferences and optimise their independence, health, well being and quality of life.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948374"
+                    },
+                    {
+                      "standardRequirement": "4.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Services and supports for daily living promote each consumer&rsquo;s emotional, spiritual and psychological well being.</span>",
+                        "rendered": "<p>Services and supports for daily living promote each consumer’s emotional, spiritual and psychological well being.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948374"
+                    },
+                    {
+                      "standardRequirement": "4.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Services and supports for daily living assist each consumer to: i) participate in their community within and outside the organisation&rsquo;s service environment; and (ii) have social and personal relationships; and (iii) do the things of interest to them.</span>",
+                        "rendered": "<p>Services and supports for daily living assist each consumer to: i) participate in their community within and outside the organisation’s service environment; and (ii) have social and personal relationships; and (iii) do the things of interest to them.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948374"
+                    },
+                    {
+                      "standardRequirement": "4.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Information about the consumer&rsquo;s condition, needs and preferences is communicated within the organisation, and with others where responsibility for care is shared.</span>",
+                        "rendered": "<p>Information about the consumer’s condition, needs and preferences is communicated within the organisation, and with others where responsibility for care is shared.</p>\n"
+                      },
+                      "answer": "Not Met",
+                      "qualityStandardId": "948374"
+                    },
+                    {
+                      "standardRequirement": "4.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</span>",
+                        "rendered": "<p>Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948374"
+                    },
+                    {
+                      "standardRequirement": "4.f",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Where meals are provided, they are varied and of suitable quality and quantity.</span>",
+                        "rendered": "<p>Where meals are provided, they are varied and of suitable quality and quantity.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948374"
+                    },
+                    {
+                      "standardRequirement": "4.g",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Where equipment is provided, it is safe, suitable, clean and well maintained.</span>",
+                        "rendered": "<p>Where equipment is provided, it is safe, suitable, clean and well maintained.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948374"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 5",
+                  "title": "Organisation’s service environment",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I feel I belong and I am safe and comfortable in the organisation&rsquo;s service environment.</span><br />\n&nbsp;",
+                    "rendered": "<p>I feel I belong and I am safe and comfortable in the organisation’s service environment.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "5.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The service environment is welcoming and easy to understand, and optimises each consumer&rsquo;s sense of belonging, independence, interaction and function.</span>",
+                        "rendered": "<p>The service environment is welcoming and easy to understand, and optimises each consumer’s sense of belonging, independence, interaction and function.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948375"
+                    },
+                    {
+                      "standardRequirement": "5.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The service environment: (i) is safe, clean, well maintained and comfortable; and (ii) enables consumers to move freely, both indoors and outdoors.</span>",
+                        "rendered": "<p>The service environment: (i) is safe, clean, well maintained and comfortable; and (ii) enables consumers to move freely, both indoors and outdoors.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948375"
+                    },
+                    {
+                      "standardRequirement": "5.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Furniture, fittings and equipment are safe, clean, well maintained and suitable for the consumer.</span>",
+                        "rendered": "<p>Furniture, fittings and equipment are safe, clean, well maintained and suitable for the consumer.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948375"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 6",
+                  "title": "Feedback and complaints",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I feel safe and am encouraged and supported to give feedback and make complaints. I am engaged in processes to address my feedback and complaints, and appropriate action is taken.</span><br />\n&nbsp;",
+                    "rendered": "<p>I feel safe and am encouraged and supported to give feedback and make complaints. I am engaged in processes to address my feedback and complaints, and appropriate action is taken.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "6.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Consumers, their family, friends, carers and others are encouraged and supported to provide feedback and make complaints.</span>",
+                        "rendered": "<p>Consumers, their family, friends, carers and others are encouraged and supported to provide feedback and make complaints.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948376"
+                    },
+                    {
+                      "standardRequirement": "6.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Consumers are made aware of and have access to advocates, language services and other methods for raising and resolving complaints.</span>",
+                        "rendered": "<p>Consumers are made aware of and have access to advocates, language services and other methods for raising and resolving complaints.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948376"
+                    },
+                    {
+                      "standardRequirement": "6.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Appropriate action is taken in response to complaints and an open disclosure process is used when things go wrong.</span>",
+                        "rendered": "<p>Appropriate action is taken in response to complaints and an open disclosure process is used when things go wrong.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948376"
+                    },
+                    {
+                      "standardRequirement": "6.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Feedback and complaints are reviewed and used to improve the quality of care and services.</span>",
+                        "rendered": "<p>Feedback and complaints are reviewed and used to improve the quality of care and services.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948376"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 7",
+                  "title": "Human resources",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I get quality care and services when I need them from people who are knowledgeable, capable and caring.</span><br />\n&nbsp;",
+                    "rendered": "<p>I get quality care and services when I need them from people who are knowledgeable, capable and caring.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "7.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The workforce is planned to enable, and the number and mix of members of the workforce deployed enables, the delivery and management of safe and quality care and services.</span>",
+                        "rendered": "<p>The workforce is planned to enable, and the number and mix of members of the workforce deployed enables, the delivery and management of safe and quality care and services.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948377"
+                    },
+                    {
+                      "standardRequirement": "7.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Workforce interactions with consumers are kind, caring and respectful of each consumer&rsquo;s identity, culture and diversity.</span>",
+                        "rendered": "<p>Workforce interactions with consumers are kind, caring and respectful of each consumer’s identity, culture and diversity.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948377"
+                    },
+                    {
+                      "standardRequirement": "7.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The workforce is competent and the members of the workforce have the qualifications and knowledge to effectively perform their roles.</span>",
+                        "rendered": "<p>The workforce is competent and the members of the workforce have the qualifications and knowledge to effectively perform their roles.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948377"
+                    },
+                    {
+                      "standardRequirement": "7.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The workforce is recruited, trained, equipped and supported to deliver the outcomes required by these standards.</span>",
+                        "rendered": "<p>The workforce is recruited, trained, equipped and supported to deliver the outcomes required by these standards.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948377"
+                    },
+                    {
+                      "standardRequirement": "7.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Regular assessment, monitoring and review of the performance of each member of the workforce.</span>",
+                        "rendered": "<p>Regular assessment, monitoring and review of the performance of each member of the workforce.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948377"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 8",
+                  "title": "Organisational governance",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I am confident the organisation is well run. I can partner in improving the delivery of care and services.</span><br />\n&nbsp;",
+                    "rendered": "<p>I am confident the organisation is well run. I can partner in improving the delivery of care and services.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127561",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "8.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Consumers are engaged in the development, delivery and evaluation of care and services and are supported in that engagement.</span>",
+                        "rendered": "<p>Consumers are engaged in the development, delivery and evaluation of care and services and are supported in that engagement.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948378"
+                    },
+                    {
+                      "standardRequirement": "8.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The organisation&rsquo;s governing body promotes a culture of safe, inclusive and quality care and services and is accountable for their delivery.</span>",
+                        "rendered": "<p>The organisation’s governing body promotes a culture of safe, inclusive and quality care and services and is accountable for their delivery.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948378"
+                    },
+                    {
+                      "standardRequirement": "8.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Effective organisation wide governance systems relating to the following.</span>",
+                        "rendered": "<p>Effective organisation wide governance systems relating to the following.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948378"
+                    },
+                    {
+                      "standardRequirement": "8.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Effective risk management systems and practices.</span>",
+                        "rendered": "<p>Effective risk management systems and practices.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948378"
+                    },
+                    {
+                      "standardRequirement": "8.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Where clinical care is provided&mdash;a clinical governance framework.</span>",
+                        "rendered": "<p>Where clinical care is provided—a clinical governance framework.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948378"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "activityGuid": "80AE157B-4DD3-ED11-86F8-005056922186",
+          "activityStartDate": "2023-04-05",
+          "activityEndDate": "",
+          "publishedDate": "2023-05-03",
+          "qualityStandardsHeader": [
+            {
+              "notMetList": "",
+              "notMetCount": "0",
+              "metList": "1.a, 1.b, 1.c, 1.d, 1.e, 1.f, 2.a, 2.b, 2.c, 2.d, 2.e, 3.a, 3.b, 3.c, 3.d, 3.e, 3.f, 3.g, 4.a, 4.b, 4.c, 4.d, 4.e, 4.f, 4.g, 5.a, 5.b, 5.c, 6.a, 6.b, 6.c, 6.d, 7.a, 7.b, 7.c, 7.d, 7.e, 8.a, 8.b, 8.c, 8.d, 8.e",
+              "metCount": "42",
+              "standardsVersion": "2",
+              "qualityStandardsId": "124815",
+              "qualityStandard": [
+                {
+                  "qualityStandard": "Quality Standard 1",
+                  "title": "Consumer dignity and choice",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I am treated with dignity and respect, and can maintain my identity. I can make informed choices about my care and services, and live the life I choose.</span>",
+                    "rendered": "<p>I am treated with dignity and respect, and can maintain my identity. I can make informed choices about my care and services, and live the life I choose.</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "1.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Each consumer is treated with dignity and respect, with their identity, culture and diversity valued.</span></span></span>",
+                        "rendered": "<p>Each consumer is treated with dignity and respect, with their identity, culture and diversity valued.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948379"
+                    },
+                    {
+                      "standardRequirement": "1.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Care and services are culturally safe.</span></span></span>",
+                        "rendered": "<p>Care and services are culturally safe.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948379"
+                    },
+                    {
+                      "standardRequirement": "1.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Each consumer is supported to exercise choice and independence:<br />\ni) make decisions about their own care and the way care and services are delivered.<br />\nii) make decisions about when family, friends, carers or others should be involved in their care.<br />\niii) communicate their decisions.<br />\niv) make connections with others and maintain relationships of choice, including intimate relationships.</span></span></span>",
+                        "rendered": "<p>Each consumer is supported to exercise choice and independence:<br><br />\ni) make decisions about their own care and the way care and services are delivered.<br><br />\nii) make decisions about when family, friends, carers or others should be involved in their care.<br><br />\niii) communicate their decisions.<br><br />\niv) make connections with others and maintain relationships of choice, including intimate relationships.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948379"
+                    },
+                    {
+                      "standardRequirement": "1.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Each consumer is supported to take risks to enable them to live the best life they can.</span>",
+                        "rendered": "<p>Each consumer is supported to take risks to enable them to live the best life they can.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948379"
+                    },
+                    {
+                      "standardRequirement": "1.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Information provided to each consumer is current, accurate and timely, and communicated in a way that is clear, easy to understand and enables them to exercise choice.</span>",
+                        "rendered": "<p>Information provided to each consumer is current, accurate and timely, and communicated in a way that is clear, easy to understand and enables them to exercise choice.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948379"
+                    },
+                    {
+                      "standardRequirement": "1.f",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Each consumer&rsquo;s privacy is respected and personal information is kept confidential.</span></span></span>",
+                        "rendered": "<p>Each consumer’s privacy is respected and personal information is kept confidential.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948379"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 2",
+                  "title": "Ongoing assessment and planning with consumers",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I am a partner in ongoing assessment and planning that helps me get the care and services I need for my health and well-being.</span><br />\n&nbsp;",
+                    "rendered": "<p>I am a partner in ongoing assessment and planning that helps me get the care and services I need for my health and well-being.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "2.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Assessment and planning, including consideration of risks to the consumer&rsquo;s health and well being, informs the delivery of safe and effective care and services.</span>",
+                        "rendered": "<p>Assessment and planning, including consideration of risks to the consumer’s health and well being, informs the delivery of safe and effective care and services.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948380"
+                    },
+                    {
+                      "standardRequirement": "2.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Assessment and planning identifies and addresses the consumer&rsquo;s current needs, goals and preferences, including advance care planning and end of life planning if the consumer wishes.</span>",
+                        "rendered": "<p>Assessment and planning identifies and addresses the consumer’s current needs, goals and preferences, including advance care planning and end of life planning if the consumer wishes.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948380"
+                    },
+                    {
+                      "standardRequirement": "2.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Assessment and planning </span></span></span><span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">is based on ongoing partnership with the consumer and others that the consumer wishes to involve in assessment, planning and review of the consumer&rsquo;s care and services; and includes other organisations, and individuals and providers of other care and services, that are involved in the care of the consumer.</span></span></span><div><div><div id=\"_com_1\" uage=\"JavaScript\"></div></div></div><div><div><div id=\"_com_1\" uage=\"JavaScript\"></div></div></div>",
+                        "rendered": "<p>Assessment and planning is based on ongoing partnership with the consumer and others that the consumer wishes to involve in assessment, planning and review of the consumer’s care and services; and includes other organisations, and individuals and providers of other care and services, that are involved in the care of the consumer.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948380"
+                    },
+                    {
+                      "standardRequirement": "2.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The outcomes of assessment and planning are effectively communicated to the consumer and documented in a care and services plan that is readily available to the consumer, and where care and services are provided.</span>",
+                        "rendered": "<p>The outcomes of assessment and planning are effectively communicated to the consumer and documented in a care and services plan that is readily available to the consumer, and where care and services are provided.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948380"
+                    },
+                    {
+                      "standardRequirement": "2.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Care and services are reviewed regularly for effectiveness, and when circumstances change or when incidents impact on the needs, goals or preferences of the consumer.</span>",
+                        "rendered": "<p>Care and services are reviewed regularly for effectiveness, and when circumstances change or when incidents impact on the needs, goals or preferences of the consumer.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948380"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 3",
+                  "title": "Personal care and clinical care",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I get personal care, clinical care, or both personal care and clinical care, that is safe and right for me.</span><br />\n&nbsp;",
+                    "rendered": "<p>I get personal care, clinical care, or both personal care and clinical care, that is safe and right for me.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "3.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Each consumer gets safe and effective personal care, clinical care, or both personal care and clinical care, that is best practice and is tailored to their needs and optimises their health and well being.</span>",
+                        "rendered": "<p>Each consumer gets safe and effective personal care, clinical care, or both personal care and clinical care, that is best practice and is tailored to their needs and optimises their health and well being.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948381"
+                    },
+                    {
+                      "standardRequirement": "3.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Effective management of high impact or high prevalence risks associated with the care of each consumer.</span>",
+                        "rendered": "<p>Effective management of high impact or high prevalence risks associated with the care of each consumer.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948381"
+                    },
+                    {
+                      "standardRequirement": "3.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The needs, goals and preferences of consumers nearing the end of life are recognised and addressed, their comfort maximised and their dignity preserved.</span>",
+                        "rendered": "<p>The needs, goals and preferences of consumers nearing the end of life are recognised and addressed, their comfort maximised and their dignity preserved.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948381"
+                    },
+                    {
+                      "standardRequirement": "3.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Deterioration or change of a consumer&rsquo;s mental health, cognitive or physical function, capacity or condition is recognised and responded to in a timely manner.</span></span></span>",
+                        "rendered": "<p>Deterioration or change of a consumer’s mental health, cognitive or physical function, capacity or condition is recognised and responded to in a timely manner.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948381"
+                    },
+                    {
+                      "standardRequirement": "3.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Information about the consumer&rsquo;s condition, needs and preferences is documented and communicated within the organisation, and with others where responsibility for care is shared.</span></span></span>",
+                        "rendered": "<p>Information about the consumer’s condition, needs and preferences is documented and communicated within the organisation, and with others where responsibility for care is shared.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948381"
+                    },
+                    {
+                      "standardRequirement": "3.f",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"color:black;\"><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:11.0pt;\">Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</span></span></span>",
+                        "rendered": "<p>Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948381"
+                    },
+                    {
+                      "standardRequirement": "3.g",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Minimisation of infection related risks through implementing: i) standard and transmission based precautions to prevent and control infection; and ii) practices to promote appropriate antibiotic prescribing and use to support optimal care and reduce the risk of increasing resistance to antibiotics.</span>",
+                        "rendered": "<p>Minimisation of infection related risks through implementing: i) standard and transmission based precautions to prevent and control infection; and ii) practices to promote appropriate antibiotic prescribing and use to support optimal care and reduce the risk of increasing resistance to antibiotics.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948381"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 4",
+                  "title": "Services and supports for daily living",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I get the services and supports for daily living that are important for my health and well-being and that enable me to do the things I want to do.</span><br />\n&nbsp;",
+                    "rendered": "<p>I get the services and supports for daily living that are important for my health and well-being and that enable me to do the things I want to do.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "4.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Each consumer gets safe and effective services and supports for daily living that meet the consumer&rsquo;s needs, goals and preferences and optimise their independence, health, well being and quality of life.</span>",
+                        "rendered": "<p>Each consumer gets safe and effective services and supports for daily living that meet the consumer’s needs, goals and preferences and optimise their independence, health, well being and quality of life.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948382"
+                    },
+                    {
+                      "standardRequirement": "4.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Services and supports for daily living promote each consumer&rsquo;s emotional, spiritual and psychological well being.</span>",
+                        "rendered": "<p>Services and supports for daily living promote each consumer’s emotional, spiritual and psychological well being.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948382"
+                    },
+                    {
+                      "standardRequirement": "4.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Services and supports for daily living assist each consumer to: i) participate in their community within and outside the organisation&rsquo;s service environment; and (ii) have social and personal relationships; and (iii) do the things of interest to them.</span>",
+                        "rendered": "<p>Services and supports for daily living assist each consumer to: i) participate in their community within and outside the organisation’s service environment; and (ii) have social and personal relationships; and (iii) do the things of interest to them.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948382"
+                    },
+                    {
+                      "standardRequirement": "4.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Information about the consumer&rsquo;s condition, needs and preferences is communicated within the organisation, and with others where responsibility for care is shared.</span>",
+                        "rendered": "<p>Information about the consumer’s condition, needs and preferences is communicated within the organisation, and with others where responsibility for care is shared.</p>\n"
+                      },
+                      "answer": "Met",
+                      "qualityStandardId": "948382"
+                    },
+                    {
+                      "standardRequirement": "4.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</span>",
+                        "rendered": "<p>Timely and appropriate referrals to individuals, other organisations and providers of other care and services.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948382"
+                    },
+                    {
+                      "standardRequirement": "4.f",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Where meals are provided, they are varied and of suitable quality and quantity.</span>",
+                        "rendered": "<p>Where meals are provided, they are varied and of suitable quality and quantity.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948382"
+                    },
+                    {
+                      "standardRequirement": "4.g",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Where equipment is provided, it is safe, suitable, clean and well maintained.</span>",
+                        "rendered": "<p>Where equipment is provided, it is safe, suitable, clean and well maintained.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948382"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 5",
+                  "title": "Organisation’s service environment",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I feel I belong and I am safe and comfortable in the organisation&rsquo;s service environment.</span><br />\n&nbsp;",
+                    "rendered": "<p>I feel I belong and I am safe and comfortable in the organisation’s service environment.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "5.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The service environment is welcoming and easy to understand, and optimises each consumer&rsquo;s sense of belonging, independence, interaction and function.</span>",
+                        "rendered": "<p>The service environment is welcoming and easy to understand, and optimises each consumer’s sense of belonging, independence, interaction and function.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948383"
+                    },
+                    {
+                      "standardRequirement": "5.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The service environment: (i) is safe, clean, well maintained and comfortable; and (ii) enables consumers to move freely, both indoors and outdoors.</span>",
+                        "rendered": "<p>The service environment: (i) is safe, clean, well maintained and comfortable; and (ii) enables consumers to move freely, both indoors and outdoors.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948383"
+                    },
+                    {
+                      "standardRequirement": "5.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Furniture, fittings and equipment are safe, clean, well maintained and suitable for the consumer.</span>",
+                        "rendered": "<p>Furniture, fittings and equipment are safe, clean, well maintained and suitable for the consumer.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948383"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 6",
+                  "title": "Feedback and complaints",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I feel safe and am encouraged and supported to give feedback and make complaints. I am engaged in processes to address my feedback and complaints, and appropriate action is taken.</span><br />\n&nbsp;",
+                    "rendered": "<p>I feel safe and am encouraged and supported to give feedback and make complaints. I am engaged in processes to address my feedback and complaints, and appropriate action is taken.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "6.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Consumers, their family, friends, carers and others are encouraged and supported to provide feedback and make complaints.</span>",
+                        "rendered": "<p>Consumers, their family, friends, carers and others are encouraged and supported to provide feedback and make complaints.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948384"
+                    },
+                    {
+                      "standardRequirement": "6.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Consumers are made aware of and have access to advocates, language services and other methods for raising and resolving complaints.</span>",
+                        "rendered": "<p>Consumers are made aware of and have access to advocates, language services and other methods for raising and resolving complaints.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948384"
+                    },
+                    {
+                      "standardRequirement": "6.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Appropriate action is taken in response to complaints and an open disclosure process is used when things go wrong.</span>",
+                        "rendered": "<p>Appropriate action is taken in response to complaints and an open disclosure process is used when things go wrong.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948384"
+                    },
+                    {
+                      "standardRequirement": "6.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Feedback and complaints are reviewed and used to improve the quality of care and services.</span>",
+                        "rendered": "<p>Feedback and complaints are reviewed and used to improve the quality of care and services.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948384"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 7",
+                  "title": "Human resources",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I get quality care and services when I need them from people who are knowledgeable, capable and caring.</span><br />\n&nbsp;",
+                    "rendered": "<p>I get quality care and services when I need them from people who are knowledgeable, capable and caring.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "7.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The workforce is planned to enable, and the number and mix of members of the workforce deployed enables, the delivery and management of safe and quality care and services.</span>",
+                        "rendered": "<p>The workforce is planned to enable, and the number and mix of members of the workforce deployed enables, the delivery and management of safe and quality care and services.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948385"
+                    },
+                    {
+                      "standardRequirement": "7.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Workforce interactions with consumers are kind, caring and respectful of each consumer&rsquo;s identity, culture and diversity.</span>",
+                        "rendered": "<p>Workforce interactions with consumers are kind, caring and respectful of each consumer’s identity, culture and diversity.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948385"
+                    },
+                    {
+                      "standardRequirement": "7.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The workforce is competent and the members of the workforce have the qualifications and knowledge to effectively perform their roles.</span>",
+                        "rendered": "<p>The workforce is competent and the members of the workforce have the qualifications and knowledge to effectively perform their roles.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948385"
+                    },
+                    {
+                      "standardRequirement": "7.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The workforce is recruited, trained, equipped and supported to deliver the outcomes required by these standards.</span>",
+                        "rendered": "<p>The workforce is recruited, trained, equipped and supported to deliver the outcomes required by these standards.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948385"
+                    },
+                    {
+                      "standardRequirement": "7.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Regular assessment, monitoring and review of the performance of each member of the workforce.</span>",
+                        "rendered": "<p>Regular assessment, monitoring and review of the performance of each member of the workforce.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948385"
+                    }
+                  ]
+                },
+                {
+                  "qualityStandard": "Quality Standard 8",
+                  "title": "Organisational governance",
+                  "requirementDescription": {
+                    "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">I am confident the organisation is well run. I can partner in improving the delivery of care and services.</span><br />\n&nbsp;",
+                    "rendered": "<p>I am confident the organisation is well run. I can partner in improving the delivery of care and services.<br><br />\n&nbsp;</p>\n"
+                  },
+                  "qualityStandardHeaderId": "127562",
+                  "requirementAndAnswer": [
+                    {
+                      "standardRequirement": "8.a",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Consumers are engaged in the development, delivery and evaluation of care and services and are supported in that engagement.</span>",
+                        "rendered": "<p>Consumers are engaged in the development, delivery and evaluation of care and services and are supported in that engagement.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948386"
+                    },
+                    {
+                      "standardRequirement": "8.b",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">The organisation&rsquo;s governing body promotes a culture of safe, inclusive and quality care and services and is accountable for their delivery.</span>",
+                        "rendered": "<p>The organisation’s governing body promotes a culture of safe, inclusive and quality care and services and is accountable for their delivery.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948386"
+                    },
+                    {
+                      "standardRequirement": "8.c",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Effective organisation wide governance systems relating to the following.</span>",
+                        "rendered": "<p>Effective organisation wide governance systems relating to the following.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948386"
+                    },
+                    {
+                      "standardRequirement": "8.d",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Effective risk management systems and practices.</span>",
+                        "rendered": "<p>Effective risk management systems and practices.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948386"
+                    },
+                    {
+                      "standardRequirement": "8.e",
+                      "description": "",
+                      "requirementDescription": {
+                        "value": "<span style=\"font-size: 11pt; font-family: Calibri, sans-serif;\">Where clinical care is provided&mdash;a clinical governance framework.</span>",
+                        "rendered": "<p>Where clinical care is provided—a clinical governance framework.</p>\n"
+                      },
+                      "answer": "",
+                      "qualityStandardId": "948386"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "qualityStandardsRatings": [
+        {
+          "overallRating": "4",
+          "overallRatingLabel": "Meets Requirements",
+          "overallRatingAppliedDate": "2023-05-03",
+          "qualityStandard1Score": "4",
+          "qualityStandard2Score": "4",
+          "qualityStandard3Score": "4",
+          "qualityStandard4Score": "4",
+          "qualityStandard5Score": "4",
+          "qualityStandard6Score": "4",
+          "qualityStandard7Score": "4",
+          "qualityStandard8Score": "4",
+          "qualityStandardScoreAppliedDate": "2023-05-03",
+          "serviceId": "6870"
+        },
+        {
+          "overallRating": "3",
+          "overallRatingLabel": "Some Improvements Needed",
+          "overallRatingAppliedDate": "2023-01-13",
+          "qualityStandard1Score": "4",
+          "qualityStandard2Score": "4",
+          "qualityStandard3Score": "4",
+          "qualityStandard4Score": "3",
+          "qualityStandard5Score": "4",
+          "qualityStandard6Score": "4",
+          "qualityStandard7Score": "4",
+          "qualityStandard8Score": "4",
+          "qualityStandardScoreAppliedDate": "2023-01-13",
+          "serviceId": "6870"
+        }
+      ],
+      "regulatoryDecisions": {
+        "past": [
+          {
+            "name": "Compliance issue",
+            "publish": 1,
+            "status": "Non-Current",
+            "regulatory_decision_id": "0fv8w00000001X2AAI",
+            "regulatory_decision_made": "Directions - To revise Plans for Continuous Improvements (PCI)",
+            "severity": 2,
+            "date_decision_applied": "2023-01-13",
+            "date_decision_ends": "2023-01-31",
+            "reason_for_issuing": "<p>This service has been given a <strong>Direction</strong> to make improvements to compliance issues.</p>\n",
+            "decision_details": "<p>This service must give the Commission a plan to show how they will make improvements to ensure the Quality Standards are met.</p>\n",
+            "progress": "<p>The approved provider has remedied the non-compliance.</p>\n",
+            "removed_reason": null,
+            "dataSource": "Database"
+          }
+        ],
+        "current": []
+      }
+    }
+  }
+]
