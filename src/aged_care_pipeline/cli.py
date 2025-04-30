@@ -9,7 +9,7 @@ from datetime import datetime
 
 import pandas as pd
 
-from aged_care_pipeline.config import global_settings as gs
+import aged_care_pipeline.config.global_settings as gs
 from aged_care_pipeline.utils.limiter import apply_limit
 from aged_care_pipeline.utils.logger import setup_logger
 from aged_care_pipeline.writers.csv_writer import CSVWriter
