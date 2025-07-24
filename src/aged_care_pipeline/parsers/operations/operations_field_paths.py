@@ -65,7 +65,7 @@ FIELD_PATHS = {
         "value",
     ],
     # Financial - annual
-    "governmentFunding_total": [
+    "governmentFunding_total_value": [
         "operationsData",
         "financialReport",
         "annual",

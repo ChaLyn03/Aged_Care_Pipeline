@@ -1,5 +1,6 @@
 # services/operations_service.py
 
+import os
 from datetime import datetime
 
 import pandas as pd
@@ -21,7 +22,8 @@ class OperationsService:
         self.writer = CSVWriter()
 
     def run(self) -> None:
-        df = pd.read_csv(NIDS_CSV)
+        nids_csv = os.getenv("NIDS_CSV", str(NIDS_CSV))
+        df = pd.read_csv(nids_csv)
         nids = apply_limit(df.nid.dropna().astype(int).tolist())
         all_rows = []
         for i, nid in enumerate(nids, 1):
