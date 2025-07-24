@@ -15,8 +15,8 @@ from pathlib import Path
 # ── 1. reference data that ships inside the package ────────────────────────
 REFS_DIR = files("aged_care_pipeline").joinpath("refs")
 
-NIDS_CSV = REFS_DIR / "NIDs_Only.csv"
-RADS_NIDS_CSV = REFS_DIR / "ProviderDirectory.csv"
+NIDS_CSV = Path(os.getenv("NIDS_CSV", REFS_DIR / "NIDs_Only.csv"))
+RADS_NIDS_CSV = Path(os.getenv("RADS_NIDS_CSV", REFS_DIR / "ProviderDirectory.csv"))
 
 
 # ── 2. where *outputs* should live  ────────────────────────────────────────
@@ -46,10 +46,10 @@ def _default_data_root() -> Path:
 
 DATA_ROOT = Path(os.getenv("AGED_CARE_DATA_ROOT", _default_data_root())).resolve()
 
-RAW_DIR = DATA_ROOT / "raw"
-INTERIM_DIR = DATA_ROOT / "interim"
-OUTPUT_DIR = DATA_ROOT / "processed"
-LOG_DIR = DATA_ROOT / "logs"
+RAW_DIR = Path(os.getenv("RAW_DIR", DATA_ROOT / "raw"))
+INTERIM_DIR = Path(os.getenv("INTERIM_DIR", DATA_ROOT / "interim"))
+OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", DATA_ROOT / "processed"))
+LOG_DIR = Path(os.getenv("LOG_DIR", DATA_ROOT / "logs"))
 
 # convenient per-pipeline dirs (used by the scrapers & CLI)
 OPERATIONS_RAW_DIR = RAW_DIR / "operations"

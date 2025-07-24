@@ -16,7 +16,11 @@ class CSVWriter(BaseWriter):
         Initialize writer with an output_dir. If not provided, defaults to the global OUTPUT_DIR.
         """
         super().__init__()
-        self.output_dir = output_dir if output_dir is not None else OUTPUT_DIR
+        if output_dir is not None:
+            self.output_dir = output_dir
+        else:
+            # Allow runtime override via environment variable
+            self.output_dir = os.getenv("OUTPUT_DIR", str(OUTPUT_DIR))
 
     def write(self, records: list[dict], filename: str) -> None:
         """
