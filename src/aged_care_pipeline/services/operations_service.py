@@ -1,6 +1,7 @@
 # services/operations_service.py
 
 from datetime import datetime
+import os
 
 import pandas as pd
 import structlog
@@ -21,7 +22,8 @@ class OperationsService:
         self.writer = CSVWriter()
 
     def run(self) -> None:
-        df = pd.read_csv(NIDS_CSV)
+        nids_csv = os.getenv("NIDS_CSV", NIDS_CSV)
+        df = pd.read_csv(nids_csv)
         nids = apply_limit(df.nid.dropna().astype(int).tolist())
         all_rows = []
         for i, nid in enumerate(nids, 1):

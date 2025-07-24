@@ -7,6 +7,8 @@ import os
 from aged_care_pipeline.config.global_settings import OUTPUT_DIR
 from aged_care_pipeline.interfaces.base_writer import BaseWriter
 
+DEFAULT_OUTPUT_DIR = os.getenv("OUTPUT_DIR", str(OUTPUT_DIR))
+
 logger = logging.getLogger(__name__)
 
 
@@ -16,7 +18,7 @@ class CSVWriter(BaseWriter):
         Initialize writer with an output_dir. If not provided, defaults to the global OUTPUT_DIR.
         """
         super().__init__()
-        self.output_dir = output_dir if output_dir is not None else OUTPUT_DIR
+        self.output_dir = output_dir if output_dir is not None else DEFAULT_OUTPUT_DIR
 
     def write(self, records: list[dict], filename: str) -> None:
         """
